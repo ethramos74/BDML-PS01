@@ -1,0 +1,25 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+.Renviron
+
+# Datos crudos y temporales: se regeneran con 01_data_scraper.R
+03_temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
