@@ -292,9 +292,12 @@ boot_peak_fn <- function(data, indices) {
   tryCatch({
     mod <- lm(ln_y_total_m ~ female * (age + age_sq) + cat_educ +
                 totalHoursWorked + num_minors, data = d_b)
-    calc_peaks(mod)
+    b <- coef(mod)
+    peak_men   <- -b["age"] / (2 * b["age_sq"])
+    peak_women <- -(b["age"] + b["female:age"]) / (2 * (b["age_sq"] + b["female:age_sq"]))
+    c(peak_men = unname(peak_men), peak_women = unname(peak_women))
   }, error = function(e) {
-    return(c(peak_men = NA, peak_women = NA))
+    c(peak_men = NA_real_, peak_women = NA_real_)
   })
 }
 
@@ -308,6 +311,13 @@ repl_men   <- repl_men[is.finite(repl_men)]
 
 repl_women <- boot_peaks$t[, 2]
 repl_women <- repl_women[is.finite(repl_women)]
+
+message(sprintf("Replicas validas para peak age -> hombres: %d/1000, mujeres: %d/1000",
+                length(repl_men), length(repl_women)))
+stopifnot(
+  "No hay suficientes replicas bootstrap validas para calcular el IC del peak age" =
+    length(repl_men) > 50 && length(repl_women) > 50
+)
 
 ci_peak_men   <- quantile(repl_men, probs = c(0.025, 0.975))
 ci_peak_women <- quantile(repl_women, probs = c(0.025, 0.975))
