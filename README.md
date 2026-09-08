@@ -36,10 +36,10 @@ Los scripts se van agregando a medida que avanza el análisis. En `00_rundirecto
 | Script | Responsabilidad |
 |---|---|
 | `00_rundirectory.R` | Script maestro. Corre todo el pipeline en orden. |
-| `01_data_scraper.R` | Descarga los 10 chunks de la GEIH desde https://ignaciomsarmiento.github.io/GEIH2018_sample/ |
-| `02_build_analysis_sample.R` | Aplica los filtros muestrales y las decisiones de limpieza. Produce la base única que usan las tres secciones. |
+| `01_data_scraper.R` / `01_scraping.R` | Descarga los 10 chunks de la GEIH desde https://ignaciomsarmiento.github.io/GEIH2018_sample/. **Pendiente:** hay dos versiones, falta que el equipo decida cuál queda. |
+| `02_cleaning.R` | Aplica los filtros muestrales y las decisiones de limpieza. Produce la base única que usan las tres secciones. |
 | `03_estimate_age_income_profile.R` | Sección 1. Perfil edad–ingreso incondicional y condicional; edad pico e intervalo bootstrap. |
-| `04_estimate_gender_gap.R` | Sección 2. Brecha de género incondicional y condicional; coeficiente por FWL con errores analíticos y bootstrap. |
+| `04_gender_gap.R` | Sección 2. Brecha de género incondicional y condicional (con discusión de good/bad controls), descomposición FWL, errores analíticos (HC1) y bootstrap, perfiles edad-ingreso por sexo. |
 | `05_evaluate_prediction_models.R` | Sección 3. Split train/validation, RMSE de todas las especificaciones, LOOCV e importancia de variables. |
 | `functions/` | Funciones compartidas entre scripts (bootstrap, formateo de tablas, cálculo de RMSE). |
 

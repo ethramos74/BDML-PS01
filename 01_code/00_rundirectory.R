@@ -15,16 +15,18 @@
 ##########################################################
 
 # Paso 1: descargar los 10 chunks de la GEIH
+# TODO: hay dos scripts, falta decidir con el equipo cuál se queda
 # source("01_code/01_data_scraper.R")
+# source("01_code/01_scraping.R")
 
 # Paso 2: filtros muestrales y limpieza -> base única de análisis
-# source("01_code/02_build_analysis_sample.R")
+source("01_code/02_cleaning.R")
 
 # Paso 3: Sección 1 - perfil edad-ingreso
 # source("01_code/03_estimate_age_income_profile.R")
 
 # Paso 4: Sección 2 - brecha de ingreso por género
-# source("01_code/04_estimate_gender_gap.R")
+source("01_code/04_gender_gap.R")
 
 # Paso 5: Sección 3 - desempeño predictivo fuera de muestra
 # source("01_code/05_evaluate_prediction_models.R")
