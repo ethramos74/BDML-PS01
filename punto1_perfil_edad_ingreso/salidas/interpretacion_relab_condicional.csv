@@ -1,0 +1,7 @@
+tipo,variable,coef_Condicional,brecha_porcentual_cat_ref
+cat_referencia,Relab[Empleado Particular],-,0.0
+cat,relab[Cuenta propia],-0.49222629495443765,-38.87359757845151
+cat,relab[Empleado del gobierno],0.7398301579505737,109.55795667394214
+cat,relab[Empleado domestico],-0.6972102370585034,-50.20274067261348
+cat,relab[Otro],-1.070489773070066,-65.71594377826035
+cat,relab[Patron/empleador],0.2182917024758695,24.394987795941038

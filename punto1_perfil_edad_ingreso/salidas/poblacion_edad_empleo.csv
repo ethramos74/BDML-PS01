@@ -1,0 +1,35 @@
+grupo_edad,relab_f,n_muestra,personas_representadas
+"(17, 25]",Cuenta propia,461,114401.25682864239
+"(17, 25]",Empleado del gobierno,31,7273.191118984097
+"(17, 25]",Empleado domestico,46,12139.472146735397
+"(17, 25]",Obrero/empleado particular,2085,501023.2747349922
+"(17, 25]",Otro,6,1313.32815423278
+"(17, 25]",Patron/empleador,16,4309.330728318673
+"(25, 35]",Cuenta propia,913,239995.04929394994
+"(25, 35]",Empleado del gobierno,186,47433.46601593395
+"(25, 35]",Empleado domestico,88,23858.29387535127
+"(25, 35]",Obrero/empleado particular,2919,759576.3348137713
+"(25, 35]",Otro,1,201.542934475291
+"(25, 35]",Patron/empleador,89,24984.718959144837
+"(35, 45]",Cuenta propia,963,244104.70392102277
+"(35, 45]",Empleado del gobierno,136,34330.180591194905
+"(35, 45]",Empleado domestico,123,30348.32505885202
+"(35, 45]",Obrero/empleado particular,1943,498998.2319941731
+"(35, 45]",Otro,1,263.095391317619
+"(35, 45]",Patron/empleador,112,28964.73760230993
+"(45, 55]",Cuenta propia,1029,245275.6228077126
+"(45, 55]",Empleado del gobierno,131,29938.881249096816
+"(45, 55]",Empleado domestico,173,41221.16157831313
+"(45, 55]",Obrero/empleado particular,1234,291848.5208904136
+"(45, 55]",Patron/empleador,134,32037.09367370471
+"(55, 65]",Cuenta propia,781,190430.10694409092
+"(55, 65]",Empleado del gobierno,85,19680.278962551998
+"(55, 65]",Empleado domestico,106,25434.08739179927
+"(55, 65]",Obrero/empleado particular,507,123679.92907765262
+"(55, 65]",Patron/empleador,83,20882.145789321454
+"(65, 92]",Cuenta propia,244,58783.507009960056
+"(65, 92]",Empleado del gobierno,2,429.447216736069
+"(65, 92]",Empleado domestico,27,6254.724011617936
+"(65, 92]",Obrero/empleado particular,69,17673.30384148551
+"(65, 92]",Otro,1,276.626941216839
+"(65, 92]",Patron/empleador,39,9311.584037391489
