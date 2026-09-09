@@ -1,0 +1,62 @@
+variable,descripcion,origen
+id_persona,Llave única de persona: directorio-secuencia_p-orden,construida
+directorio,Llave de vivienda (GEIH),original
+secuencia_p,Llave de hogar,original
+orden,Llave de persona,original
+chunk,Bloque del sitio (1-10); sigue el calendario de la encuesta,obtención
+muestra_ps3,entrenamiento (bloques 1-7) o validacion (8-10),obtención
+entrenamiento,True si muestra_ps3 == entrenamiento,construida
+mes,Mes de la entrevista,original
+mes_f,mes como categórica,construida
+fex_c,Factor de expansión anualizado,original
+muestra_principal,True si entra a la muestra de análisis,construida
+motivo_exclusion,Por qué no entra; NA si entra,construida
+y_total_m,Ingreso laboral mensual nominal 2018 (asalariado + independiente),original
+log_y,log(y_total_m): variable dependiente,construida
+y_total_m_ha,Ingreso por hora = y_total_m / (totalHoursWorked x 30/7),original
+y_ingLab_m,Componente asalariado,original
+y_gananciaIndep_m,Componente independiente (= p6750 / p6760),original
+y_salary_m,Salario ocupación principal (= p6500; 0 -> NA),original
+impa,Ingreso primera actividad DANE antes de imputación (referencia),original
+impaes,Ingreso imputado por DANE (faltantes/extremos),original
+dane_faltante,1 si DANE clasificó el ingreso como faltante (cclasnr2 == 1),construida
+age,Edad en años,original
+sex,"1 hombre, 0 mujer",original
+female,1 mujer (= 1 - sex),construida
+jefe_hogar,1 si jefe/a del hogar (p6050 == 1),construida
+p6050,Parentesco con el jefe (código),original
+parentesco_f,Parentesco como categórica,construida
+estrato1,Estrato de la vivienda (1-6),original
+estrato_f,estrato1 como categórica,construida
+maxEducLevel,Máximo nivel educativo (1-7),original
+educ_f,maxEducLevel con etiquetas,construida
+terciaria,1 si educación terciaria (maxEducLevel == 7); reemplaza a college,construida
+anios_educ,Años de educación aproximados (superior = 11 + años aprobados),construida
+p6210,Nivel educativo (pregunta original),original
+p6210s1,Último grado aprobado,original
+relab,Tipo de ocupación (1-9),original
+relab_f,"relab con etiquetas; 6-7 sin remuneración, 8-9 otro",construida
+oficio,Ocupación CNO-70 a dos dígitos,original
+oficio_f,oficio como categórica; raros agrupados en Otros,construida
+oficio_grupo,Grupo mayor de ocupación (7),construida
+sizeFirm,Tamaño de la empresa (1-5),original
+sizeFirm_f,sizeFirm con etiquetas,construida
+microEmpresa,1 si 5 trabajadores o menos,original
+cuentaPropia,1 si cuenta propia,original
+formal,1 si formal (seguridad social),original
+cotPension,"1 cotiza, 2 no, 3 pensionado",original
+cotiza_pension,1 si cotiza actualmente,construida
+regSalud,"1 contributivo, 2 especial, 3 subsidiado; NA frecuente",original
+regSalud_f,regSalud con etiquetas y categoría 'No responde',construida
+p6426,Meses en la empresa actual,original
+antiguedad_anios,p6426 / 12,construida
+totalHoursWorked,Horas semanales: usuales del principal + efectivas del segundo empleo,original
+hoursWorkUsual,Horas usuales ocupación principal,original
+horas_segundo_empleo,Horas en el segundo empleo (0 si no tiene),construida
+segundo_empleo,1 si tenía otro trabajo (p7040 == 1),construida
+quiere_mas_horas,1 si quiere trabajar más horas (p7090 == 1): subempleo visible,construida
+alerta_ingreso_bajo,Ingreso por hora < fracción del mínimo por hora,construida
+alerta_ingreso_alto,Ingreso mensual > múltiplo del SMMLV,construida
+alerta_horas_altas,Horas > máximo plausible,construida
+alerta_dane_extremo,DANE reemplazó el ingreso observado por imputación,construida
+alerta_extremo,Unión de las alertas,construida

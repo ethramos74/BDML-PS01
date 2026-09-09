@@ -1,0 +1,8 @@
+motivo_exclusion,relab_f,n
+Asalariado que no reporto el monto (p6500 = 0; DANE lo imputa),Obrero/empleado particular,585
+Asalariado que no reporto el monto (p6500 = 0; DANE lo imputa),Empleado del gobierno,61
+Asalariado que no reporto el monto (p6500 = 0; DANE lo imputa),Empleado domestico,15
+Independiente o patron que no reporto el monto (p6750 NA; DANE lo imputa),Cuenta propia,715
+Independiente o patron que no reporto el monto (p6750 NA; DANE lo imputa),Patron/empleador,153
+Independiente o patron que no reporto el monto (p6750 NA; DANE lo imputa),Otro,1
+Sin remuneracion por definicion (relab 6 o 7),Sin remuneracion,248

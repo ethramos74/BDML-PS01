@@ -1,0 +1,22 @@
+[
+  {
+    "archivo": "datos/brutos/geih2018_original.csv",
+    "sha256": "acf86c216381d17b91c08fe77a1e2ccd1445577c470b0fbb78cc7da276e8e23a",
+    "bytes": 20880410
+  },
+  {
+    "archivo": "output/pdf/age_equipo_02.pdf",
+    "sha256": "b8db873fe560313d85dc983a28a3844a37ae0f7672334a99bba9cdee9e7bd074",
+    "bytes": 704071
+  },
+  {
+    "archivo": "output/pdf/gap_equipo_02.pdf",
+    "sha256": "8c676f9827346927a1ba4d3319fce3bdc1e4cdefe1ea975b3dc493e6d26131f1",
+    "bytes": 401854
+  },
+  {
+    "archivo": "output/pdf/pred_equipo_02.pdf",
+    "sha256": "556307c813ad52e4c77b2afde02ff716fc176b5a9ce5353b7538dedeac5f0510",
+    "bytes": 622102
+  }
+]

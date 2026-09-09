@@ -1,0 +1,5 @@
+paso,descripcion,n_personas,n_excluidas
+1,Base tipada (todas las personas),32177,
+2,Ocupados (ocu == 1),16682,15495
+3,Ocupados de 18+ (base ampliada),16542,140
+4,Con ingreso laboral positivo observado (muestra principal),14764,1778

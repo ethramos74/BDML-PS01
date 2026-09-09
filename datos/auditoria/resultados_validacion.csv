@@ -1,0 +1,42 @@
+id,categoria,prueba,resultado,detalle
+1.1,1. Estructura,Número de observaciones,OK,"32,177 (esperadas 32,177)"
+1.2,1. Estructura,Número de columnas (177 + 4 de procedencia),OK,181
+1.3,1. Estructura,Las 177 variables originales están presentes y en el orden del sitio,OK,
+1.4,1. Estructura,Columnas de procedencia presentes,OK,
+2.1,2. Procedencia y bloques,chunk toma los valores 1..10 con 3.217-3.218 filas cada uno,OK,1=3217; 2=3218; 3=3218; 4=3218; 5=3218; 6=3218; 7=3218; 8=3218; 9=3217; 10=3217
+2.2,2. Procedencia y bloques,muestra_ps3 = entrenamiento (1-7) / validacion (8-10),OK,
+2.3,2. Procedencia y bloques,fila_en_bloque es 1..n dentro de cada bloque,OK,
+3.1,3. Contenido textual y conversión,Los faltantes vienen como texto 'NA'; no hay blancos,OK,blancos: 0
+3.2,3. Contenido textual y conversión,Todo valor presente es numérico salvo dominio (= BOGOTA),OK,no numéricas: ['dominio']
+3.3,3. Contenido textual y conversión,"Notación científica (cifras redondas, se recupera exacta)",OK,"52,474 celdas"
+3.4,3. Contenido textual y conversión,Columnas 100 % NA: solo p550 y y_gananciaNetaAgro_m,OK,"['p550', 'y_gananciaNetaAgro_m']"
+3.5,3. Contenido textual y conversión,La conversión a numérico no crea NA adicionales,OK,0
+4.1,4. Llaves y constantes,directorio + secuencia_p + orden identifica una única persona,OK,"viviendas 10,403; hogares 10,567"
+4.2,4. Llaves y constantes,"clase = 1, dominio = BOGOTA, depto = 11 constantes",OK,
+4.3,4. Llaves y constantes,fex_c positivo; su suma aproxima la población de Bogotá 2018,OK,"suma fex_c = 8,164,164"
+5.1,5. Codificaciones,Todas las variables codificadas toman solo valores admisibles,OK,31 variables
+5.2,5. Codificaciones,age entera entre 0 y 110,OK,"min 0, max 106"
+5.3,5. Codificaciones,totalHoursWorked entre 1 y 168,OK,max 130; >126: 3
+5.4,5. Codificaciones,"Sin códigos especiales DANE (98/99 en montos, 998/999 en antigüedad)",OK,32 variables
+6.1,6. Catálogo DANE,Códigos observados dentro de las categorías del catálogo DANE 547,OK,57 variables cruzadas
+7.1,7. Consistencia de variables construidas,pea = ocu | dsi; ocu + dsi + inac = wap,OK,
+7.2,7. Consistencia de variables construidas,Variables de empleo existen exactamente para ocu = 1,OK,"ocupados 16,682"
+7.3,7. Consistencia de variables construidas,cuentaPropia = (relab == 4); microEmpresa = (sizeFirm <= 2); cotPension = p6920; regSalud = p6100 con 9 -> NA,OK,
+7.4,7. Consistencia de variables construidas,sizeFirm recodifica p6870 (1; 2-3; 4; 5-7; 8-9),OK,
+7.5,7. Consistencia de variables construidas,college = 1 corresponde a terciaria (maxEducLevel = 7) como dice el diccionario,ADVERTENCIA,coincide con terciaria 45 %; con secundaria completa 100 % -> NO usar college
+7.6,7. Consistencia de variables construidas,y_total_m = y_ingLab_m + y_gananciaIndep_m; nadie tiene ambos; nunca vale cero,OK,"con asalariado 9,964; con independiente 4,904"
+7.7,7. Consistencia de variables construidas,y_salary_m = p6500 con los ceros convertidos a NA,OK,p6500 = 0: 664
+7.8,7. Consistencia de variables construidas,y_gananciaNeta_m = p6750 / p6760 = y_gananciaIndep_m,OK,
+7.9,7. Consistencia de variables construidas,y_total_m_ha = y_total_m / (totalHoursWorked x 30/7); idem salario y ingreso laboral por hora,OK,
+7.10,7. Consistencia de variables construidas,totalHoursWorked = hoursWorkUsual + hoursWorkActualSecondJob,OK,
+8.1,8. Panorama de la muestra,Tamaños de muestra,OK,"ocupados 16,682; ocupados 18+ 16,542; con y_total_m 14,764; sin y_total_m 1,778"
+8.2,8. Panorama de la muestra,Ocupados 18+ sin y_total_m por relab,OK,1=585; 2=61; 3=15; 4=715; 5=153; 6=207; 7=41; 9=1
+8.3,8. Panorama de la muestra,Ingresos observados que el DANE reemplazó por imputación (extremos),ADVERTENCIA,20 casos
+9.1,9. Comparabilidad entrenamiento / validación,Los bloques siguen el calendario (2-3 meses consecutivos por bloque): partición temporal,ADVERTENCIA,1=1-2; 2=2-3; 3=3-4; 4=4-5; 5=5-6; 6=6-7-8; 7=8-9; 8=9-10; 9=10-11; 10=11-12
+9.2,9. Comparabilidad entrenamiento / validación,Casi ninguna vivienda aparece en ambas particiones,OK,viviendas en ambas: 1
+9.3,9. Comparabilidad entrenamiento / validación,Media de log(y) similar entre particiones (muestra base),OK,dif = 0.016; sd ent 0.888 vs val 0.915
+9.4.relab,9. Comparabilidad entrenamiento / validación,relab: todo nivel de validación existe en entrenamiento,OK,7 niveles
+9.4.oficio,9. Comparabilidad entrenamiento / validación,oficio: todo nivel de validación existe en entrenamiento,ADVERTENCIA,"solo en validación: [20.0, 78.0]"
+9.4.sizeFirm,9. Comparabilidad entrenamiento / validación,sizeFirm: todo nivel de validación existe en entrenamiento,OK,5 niveles
+9.4.maxEducLevel,9. Comparabilidad entrenamiento / validación,maxEducLevel: todo nivel de validación existe en entrenamiento,OK,6 niveles
+9.4.estrato1,9. Comparabilidad entrenamiento / validación,estrato1: todo nivel de validación existe en entrenamiento,OK,6 niveles

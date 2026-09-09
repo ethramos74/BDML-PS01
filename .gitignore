@@ -1,28 +1,38 @@
+# Entornos, compilados y cachés
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Material temporal y copias de auditoría
+tmp/
+datos/html/
+datos/intermedios/
+# Secretos y configuración local
+.env
+.env.*
+.codex/
+.agents/
+!.env.example
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Registros extensos de ejecución (se conserva el resumen JSON)
+output/logs/*.log
+output/cache/
+# Paquetes de entrega generados
+output/*.zip
+# Editores
+.vscode/
+.idea/
+*.swp
 # R
 .Rhistory
 .RData
 .Rproj.user
 *.Rproj
 .Renviron
-
-# Datos crudos y temporales: se regeneran con 01_data_scraper.R
-03_temp/
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Editores
-.vscode/
-.idea/
-*.swp
-
 # Notas de trabajo privadas (nunca al repo)
 ESTADOPIVADO.md

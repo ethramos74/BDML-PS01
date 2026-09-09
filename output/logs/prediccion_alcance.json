@@ -1,0 +1,10 @@
+{
+  "estado": "OK",
+  "alcance": "Actualización de población representada y salidas de presentación; se conservan las métricas de la selección previamente ejecutada.",
+  "celdas_presentacion_actualizadas": [
+    1,
+    7,
+    10,
+    14
+  ]
+}

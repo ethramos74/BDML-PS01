@@ -1,0 +1,34 @@
+{
+  "etapas": [
+    {
+      "etapa": "datos",
+      "estado": "OK",
+      "celdas_ejecutadas": 10,
+      "segundos": 13.63
+    },
+    {
+      "etapa": "edad",
+      "estado": "OK",
+      "celdas_ejecutadas": 6,
+      "segundos": 14.23
+    },
+    {
+      "etapa": "brecha",
+      "estado": "OK",
+      "celdas_ejecutadas": 7,
+      "segundos": 94.36
+    },
+    {
+      "etapa": "prediccion",
+      "estado": "OK",
+      "celdas_ejecutadas": 7,
+      "segundos": 460.96
+    },
+    {
+      "etapa": "verificar",
+      "estado": "OK",
+      "segundos": 5.2
+    }
+  ],
+  "python": "3.13.5"
+}
