@@ -168,10 +168,14 @@ beta_m3  <- coef(m3_oferta)["female"]
 beta_fwl <- coef(fwl_fit)["res_d"]
 
 message("--------------------------------------------------")
-message(paste("Coeficiente female en regresion multiple   :", round(beta_m3, 6)))
-message(paste("Coeficiente female via descomposicion FWL  :", round(beta_fwl, 6)))
-message(paste("Diferencia absoluta (tolerancia max 1e-7)  :", abs(beta_m3 - beta_fwl)))
+message(sprintf("Coeficiente female en regresion multiple   : %.8f", beta_m3))
+message(sprintf("Coeficiente female via descomposicion FWL  : %.8f", beta_fwl))
 message("--------------------------------------------------")
+
+# FWL es una identidad algebraica, no una aproximacion: los dos valores deben
+# coincidir salvo error de punto flotante. Si no coinciden, los residuos se
+# construyeron sobre muestras distintas (tipicamente por NA).
+message("Coinciden: ", isTRUE(all.equal(unname(beta_m3), unname(beta_fwl))))
 
 # ==============================================================================
 # 5. Inferencia: Bootstrap no parametrico para coeficientes de genero

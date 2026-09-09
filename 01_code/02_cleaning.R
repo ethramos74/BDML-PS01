@@ -103,6 +103,15 @@ db_clean <- db_sample |>
                  "Patron_Empleador", "Trabajador_Familiar_SR",
                  "Trabajador_SR_Otros_Hogares", "Jornalero_Peon", "Otro")
     ),
+    # Las categorias residuales 8 (Jornalero_Peon) y 9 (Otro) suman 9 personas
+    # en la muestra final. Una dummy que identifica a un solo individuo lo
+    # ajusta de forma exacta: su leverage h_ii tiende a 1, su residuo a cero, y
+    # el estimador HC1 -- que pondera por 1/(1 - h_ii) -- se vuelve singular.
+    # Fundirlas en una sola categoria residual elimina el problema de raiz.
+    cat_relab = fct_collapse(
+      cat_relab,
+      Otro = c("Jornalero_Peon", "Otro")
+    ),
     
     # Posicion como jefe(a) de hogar
     head_hh = ifelse(p6050 == 1, 1, 0),
@@ -112,7 +121,23 @@ db_clean <- db_sample |>
     formal = factor(formal, levels = c(0, 1), labels = c("Informal", "Formal"))
   )
 
-# 6. Exportar base limpia
+# 6. Depuracion de niveles vacios
+# Los niveles se declaran con el diccionario oficial, no con la muestra, asi
+# que tras los filtros varios quedan sin observaciones (por ejemplo "Preschool"
+# en educacion, o los trabajadores sin remuneracion en relab, que salen al
+# exigir ingreso positivo). lm() genera una columna de ceros para cada uno, de
+# modo que droplevels() deja solo las categorias realmente observadas.
+db_clean <- db_clean |>
+  mutate(across(where(is.factor), droplevels))
+
+# Frecuencia final de las categoricas que entran como controles. Conviene
+# revisarla: una categoria con muy pocas observaciones da un coeficiente que no
+# es interpretable y vuelve a abrir la puerta al leverage extremo.
+message("Distribucion de las variables categoricas en la muestra final:")
+print(table(db_clean$cat_educ))
+print(table(db_clean$cat_relab))
+
+# 7. Exportar base limpia
 message("Exportando base limpia a: ", output_path)
 rio::export(db_clean, output_path)
 message("Proceso de limpieza finalizado con exito.")
