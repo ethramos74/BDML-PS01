@@ -1,0 +1,178 @@
+﻿variable,variable_dane,fuente,etiqueta_dane,tipo_dane,formato_dane,ancho_dane,categorias_dane,tipo_en_geih2018_tipado,n_na,n_valores_unicos,minimo,maximo,tipo_recomendado_R,observaciones
+directorio,,DANE (diseño muestral / identificación),,,,,,integer,0,10403,4514331.0,4804455.0,integer (llave; no es cantidad),
+secuencia_p,,DANE (diseño muestral / identificación),,,,,,integer,0,4,1.0,4.0,integer (llave; no es cantidad),
+orden,,DANE (diseño muestral / identificación),,,,,,integer,0,14,1.0,14.0,integer (llave; no es cantidad),
+clase,,DANE (diseño muestral / identificación),,,,,,integer,0,1,1.0,1.0,integer constante (no usar),
+dominio,,DANE (diseño muestral / identificación),,,,,,character,0,1,,,character (constante BOGOTA),
+mes,MES,DANE (pregunta/variable de la GEIH),Mes,Discreta,Carácter,2,,integer,0,12,1.0,12.0,integer; factor si se usa como control,
+estrato1,P4030S1A1,DANE (pregunta/variable de la GEIH),Estrato para tarifa,Discreta,Numérico,1,0=Conexión pirata; 1=Bajo - bajo; 2=Bajo; 3=Medio - bajo; 4=Medio; 5=Medio - alto; 6=Alto; 9=No sabe o cuenta con planta eléctrica,integer,0,6,1.0,6.0,factor (categórica; 9 = NA),DANE P4030S1A1 admite 0 (pirata) y 9 (no sabe); en Bogotá solo 1-6
+sex,P6020,DANE (pregunta/variable de la GEIH),Sexo,Discreta,Numérico,1,1=Hombre; 2=Mujer,integer,0,2,0.0,1.0,"integer 0/1 (DANE 1=hombre,2=mujer; curso 1=hombre,0=mujer)",recodificada por el curso; construir female = 1 - sex
+age,P6040,DANE (pregunta/variable de la GEIH),"¿cuántos años cumplidos tiene...? (si es menor de 1 año, escriba 00)",Continua,Numérico,3,,integer,0,102,0.0,106.0,integer (continua),DANE la declara continua; 3 casos con 99 y edades hasta 106 (no hay tope en 99)
+p6050,P6050,DANE (pregunta/variable de la GEIH),¿Cuál es el parentesco de ... con el jefe o jefa del hogar?,Discreta,Numérico,1,"1=Jefe (a) del hogar; 2=Pareja, esposo(a), cónyuge, compañero(a); 3=Hijo(a), hijastro(a); 4=Nieto(a); 5=Otro pariente; 6=Empleado(a) del servicio doméstico y sus parientes; 7=Pensionista; 8=Trabajador; 9=Otro no pariente",integer,0,9,1.0,9.0,factor (categórica),9 = 'Otro no pariente' es categoría válida (no NA)
+p6090,P6090,DANE (pregunta/variable de la GEIH),"¿... Está afiliado, es cotizante o es beneficiario de alguna entidad de seguridad social en salud?",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,4888,3,1.0,9.0,factor (categórica; 9 = NA),"código 9 = 'No sabe, no informa' presente en 23 casos: tratar como NA"
+p6100,P6100,DANE (pregunta/variable de la GEIH),¿A cuál de los siguientes regímenes de seguridad social en salud está afiliado?,Discreta,Numérico,1,"1=Contributivo (eps)?; 2=Especial ? (fuerzas armadas, ecopetrol, universidades públicas); 3=Subsidiado? (eps-s); 9=No sabe, no informa",integer,7478,4,1.0,9.0,factor (categórica; 9 = NA),"código 9 = 'No sabe, no informa' presente en 29 casos: tratar como NA"
+p6210,P6210,DANE (pregunta/variable de la GEIH),¿cuál es el nivel educativo más alto alcanzado por ... Y el último año o grado aprobado en este nivel?,Discreta,Numérico,1,"1=Ninguno; 2=Preescolar; 3=Básica primaria (1o - 5o); 4=Básica secundaria (6o - 9o); 5=Media (10o - 13o); 6=Superior o universitaria; 9=No sabe, no informa",integer,1111,7,1.0,9.0,factor (categórica; 9 = NA),"código 9 = 'No sabe, no informa' presente en 2 casos: tratar como NA"
+p6210s1,P6210S1,DANE (pregunta/variable de la GEIH),Grado,Continua,Numérico,2,,integer,4888,17,0.0,99.0,integer (cantidad entera),DANE: 0 = cursa primer año/no aprobó; superior en años completos; 99 en 2 casos con p6210 = 9
+p6240,P6240,DANE (pregunta/variable de la GEIH),¿en que actividad ocupó ... La mayor parte del tiempo la semana pasada?,Discreta,Numérico,1,1=Trabajando; 2=Buscando trabajo; 3=Estudiando; 4=Oficios del hogar; 5=Incapacitado permanente para trabajar; 6=Otra actividad,integer,4888,6,1.0,6.0,factor (categórica),
+oficio,OFICIO,DANE (pregunta/variable de la GEIH),¿qué hace ... En este trabajo?,Discreta,Carácter,2,,integer,15495,80,1.0,99.0,"factor (DANE: carácter 2 dígitos, CNO-70)",DANE la almacena como carácter de 2 dígitos; en el sitio viene numérica: tratar como factor
+p6426,P6426,DANE (pregunta/variable de la GEIH),"¿cuanto tiempo lleva ... Trabajando en esta empresa, negocio, industria, oficina, firma o finca de manera continua?",Continua,Numérico,3,,integer,15495,263,0.0,720.0,integer (cantidad entera),"DANE: 000 menos de un mes, 998 más de 999 meses, 999 no sabe; datos 0-720 sin 998/999"
+relab,P6430,DANE (pregunta/variable de la GEIH),En este trabajo ... Es:,Discreta,Numérico,1,1=Obrero o empleado de empresa particular; 2=Obrero o empleado del gobierno; 3=Empleado doméstico; 4=Trabajador por cuenta propia; 5=Patrón o empleador; 6=Trabajador familiar sin remuneración; 7=Trabajador sin remuneración en empresas o negocios de otros hogares; 8=Jornalero o peón; 9=Otro,integer,15495,9,1.0,9.0,factor (categórica),9 = 'Otro' es categoría válida (10 casos); 8 = jornalero (1 caso)
+p6500,P6500,DANE (pregunta/variable de la GEIH),Antes de descuentos ¿cuánto ganó ... El mes pasado en este empleo?,Continua,Numérico,8,,integer,21549,661,0.0,34000000.0,integer (cantidad entera),"DANE: 00 = no recibió salario en dinero, 98 = no sabe monto, 99 = no sabe si recibió; datos: 664 ceros, ningún 98/99; el curso convierte 0 a NA en y_salary_m"
+p6510,P6510,DANE (pregunta/variable de la GEIH),El mes pasado recibió ingresos por concepto de horas extras?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 10 casos: tratar como NA"
+p6510s1,P6510S1,DANE (pregunta/variable de la GEIH),¿cuánto recibió?,Continua,Numérico,7,,integer,21559,91,0.0,2000000.0,integer (cantidad entera),
+p6510s2,P6510S2,DANE (pregunta/variable de la GEIH),¿incluyó este valor en los ingresos del mes pasado $__ que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,31282,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6545,P6545,DANE (pregunta/variable de la GEIH),"Primas(técnica, de antigüedad, clima, orden público, otras , etc)",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 12 casos: tratar como NA"
+p6545s1,P6545S1,DANE (pregunta/variable de la GEIH),¿cuánto?,Continua,Numérico,7,,integer,21561,43,0.0,3500000.0,integer (cantidad entera),
+p6545s2,P6545S2,DANE (pregunta/variable de la GEIH),¿incluyo esta valor en los ingresos del mes pasado que me declaro anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,32082,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6580,P6580,DANE (pregunta/variable de la GEIH),El mes pasado recibió ... Bonificaciones mensuales?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 4 casos: tratar como NA"
+p6580s1,P6580S1,DANE (pregunta/variable de la GEIH),¿cuánto recibió el mes pasado?,Continua,Numérico,7,,integer,21553,78,0.0,47200000.0,integer (cantidad entera),
+p6580s2,P6580S2,DANE (pregunta/variable de la GEIH),¿incluyó este valor en los ingresos del mes pasado que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,31811,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6585s1,P6585S1,DANE (pregunta/variable de la GEIH),Auxilio o subsidio de alimentación?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 6 casos: tratar como NA"
+p6585s1a1,P6585S1A1,DANE (pregunta/variable de la GEIH),"¿cuánto? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,7,,integer,21555,82,0.0,1428000.0,integer (cantidad entera),
+p6585s1a2,P6585S1A2,DANE (pregunta/variable de la GEIH),¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,31770,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6585s2,P6585S2,DANE (pregunta/variable de la GEIH),Auxilio o subsidio de transporte?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 54 casos: tratar como NA"
+p6585s2a1,P6585S2A1,DANE (pregunta/variable de la GEIH),"¿cuánto? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,7,,integer,21603,117,0.0,3000000.0,integer (cantidad entera),
+p6585s2a2,P6585S2A2,DANE (pregunta/variable de la GEIH),¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,26706,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6585s3,P6585S3,DANE (pregunta/variable de la GEIH),Subsidio familiar?,Discreta,Numérico,1,"1=Si; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 16 casos: tratar como NA"
+p6585s3a1,P6585S3A1,DANE (pregunta/variable de la GEIH),"¿cuánto? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,6,,integer,21565,139,0.0,940000.0,integer (cantidad entera),
+p6585s3a2,P6585S3A2,DANE (pregunta/variable de la GEIH),¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,29876,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6585s4,P6585S4,DANE (pregunta/variable de la GEIH),Subsidio educativo?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 2 casos: tratar como NA"
+p6585s4a1,P6585S4A1,DANE (pregunta/variable de la GEIH),"¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,8,,integer,21549,26,0.0,2700000.0,integer (cantidad entera),
+p6585s4a2,P6585S4A2,DANE (pregunta/variable de la GEIH),¿incluyo este valor en los ingresos del mes pasado que me declaró anteriormente?,Discreta,Numérico,1,1=Sí; 2=No,integer,32139,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6590,P6590,DANE (pregunta/variable de la GEIH),"Además del salario en dinero, ¿el mes pasado recibió alimentos como parte de pago por su trabajo?",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 6 casos: tratar como NA"
+p6590s1,P6590S1,DANE (pregunta/variable de la GEIH),"¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98)",Continua,Numérico,7,,integer,21549,125,0.0,1000000.0,integer (cantidad entera),
+p6600,P6600,DANE (pregunta/variable de la GEIH),"Además del salario en dinero, ¿el mes pasado recibió vivienda como parte de pago por su trabajo?",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 3 casos: tratar como NA"
+p6600s1,P6600S1,DANE (pregunta/variable de la GEIH),"¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98)",Continua,Numérico,7,,integer,21549,20,0.0,6000000.0,integer (cantidad entera),
+p6610,P6610,DANE (pregunta/variable de la GEIH),¿normalmente ... Utiliza transporte de la empresa para desplazarse a su trabajo (bus o automóvil)?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 3 casos: tratar como NA"
+p6610s1,P6610S1,DANE (pregunta/variable de la GEIH),"¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98)",Continua,Numérico,7,,integer,21549,62,0.0,3000000.0,integer (cantidad entera),
+p6620,P6620,DANE (pregunta/variable de la GEIH),"Además del salario en dinero, ¿el mes pasado... Recibió otros ingresos en especie por su trabajo (electrodomésticos, rop",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,21549,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 4 casos: tratar como NA"
+p6620s1,P6620S1,DANE (pregunta/variable de la GEIH),"¿en cuánto estima lo que recibió el mes pasado? (si recibió pero no sabe estimar el monto, escriba 98)",Continua,Numérico,7,,integer,21549,47,0.0,4500000.0,integer (cantidad entera),
+p6630s1,P6630S1,DANE (pregunta/variable de la GEIH),Prima de servicios?,Discreta,Numérico,1,1=Sí; 2=No,integer,21549,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6630s1a1,P6630S1A1,DANE (pregunta/variable de la GEIH),"¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,8,,integer,21549,400,0.0,56000000.0,integer (cantidad entera),
+p6630s2,P6630S2,DANE (pregunta/variable de la GEIH),Prima de navidad?,Discreta,Numérico,1,1=Sí; 2=No,integer,21549,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6630s2a1,P6630S2A1,DANE (pregunta/variable de la GEIH),"¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,8,,integer,21549,98,0.0,36500000.0,integer (cantidad entera),
+p6630s3,P6630S3,DANE (pregunta/variable de la GEIH),Prima de vacaciones?,Discreta,Numérico,1,1=Sí; 2=No,integer,21549,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p6630s3a1,P6630S3A1,DANE (pregunta/variable de la GEIH),"¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,8,,integer,21549,78,0.0,77000000.0,integer (cantidad entera),
+p6630s4,P6630S4,DANE (pregunta/variable de la GEIH),Viáticos permanentes y/o bonificaciones anuales?,Discreta,Numérico,1,1=Sí; 2=No,integer,21549,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,DANE: 'Viáticos permanentes y/o bonificaciones anuales'
+p6630s4a1,P6630S4A1,DANE (pregunta/variable de la GEIH),"¿cuánto recibió? (si recibió pero no sabe el monto, escriba 98)",Continua,Numérico,8,,integer,21549,89,0.0,130000000.0,integer (cantidad entera),
+p6630s6,P6630S6,DANE (pregunta/variable de la GEIH),Pagos por accidentes de trabajo,Discreta,Numérico,1,1=Sí; 2=No,integer,21549,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,DANE: 'Pagos por accidentes de trabajo' (el diccionario del curso dice 'bonificaciones anuales'); y_accidentes_m es coherente con DANE
+p6630s6a1,P6630S6A1,DANE (pregunta/variable de la GEIH),Cuánto recibió,Continua,Numérico,8,,integer,21549,19,0.0,3125000.0,integer (cantidad entera),
+p6750,P6750,DANE (pregunta/variable de la GEIH),"¿cuál fue la ganancia neta o los honorarios netos de ... Esa actividad, negocio, profesión o finca, el mes pasado?",Continua,Numérico,8,,integer,27273,234,84.0,70000000.0,integer (cantidad entera),DANE: 00/98/99 códigos; datos sin 0/98/99 pero con valores de 84 y 97 pesos (extremos que DANE reimputa)
+p6760,P6760,DANE (pregunta/variable de la GEIH),¿a cuántos meses corresponde lo que recibió?,Continua,Numérico,2,,integer,26395,5,1.0,12.0,integer (cantidad entera),DANE: solo 01-12; datos 1-12
+p550,P550,DANE (pregunta/variable de la GEIH),¿cuál fue la ganancia neta del negocio o de la cosecha durante los últimos 12 meses?,Discreta,Numérico,7,,integer (todo NA),32177,0,,,integer (cantidad entera),100% NA: pregunta solo para centros poblados y rural disperso
+hoursWorkUsual,P6800,DANE (pregunta/variable de la GEIH),¿cuántas horas a la semana trabaja normalmente ... En ese trabajo?,Continua,Numérico,3,,integer,15495,107,1.0,130.0,integer (cantidad entera),"rango DANE 1-126; datos hasta 130; 34 casos en 98 (14h x 7 días, no es código)"
+p6870,P6870,DANE (pregunta/variable de la GEIH),"¿cuántas personas en total tiene la empresa, negocio, industria, oficina, firma o finca o sitio donde ... Trabaja?",Discreta,Numérico,1,1=Trabaja solo; 2=2 a 3 personas; 3=4 a 5 personas; 4=6 a 10 personas; 5=11 a 19 personas; 6=20 a 30 personas; 7=31 a 50 personas; 8=51 a 100 personas; 9=101 o más personas,integer,15495,9,1.0,9.0,factor (categórica),9 = '101 o más personas' es categoría válida (no NA)
+p6920,P6920,DANE (pregunta/variable de la GEIH),¿está ... Cotizando actualmente a un fondo de pensiones?,Discreta,Numérico,1,1=Sí; 2=No; 3=Ya es pensionado,integer,15514,3,1.0,3.0,factor (categórica),
+p7040,P7040,DANE (pregunta/variable de la GEIH),"Además de la ocupación principal, ¿... Tenía la semana pasada otro trabajo o negocio?",Discreta,Numérico,1,1=Sí; 2=No,integer,15495,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+hoursWorkActualSecondJob,P7045,DANE (pregunta/variable de la GEIH),¿Cuántas horas trabajó ... la semana pasada en ese segundo trabajo?,Continua,Numérico,2,,integer,31612,33,1.0,50.0,integer (cantidad entera),
+p7050,P7050,DANE (pregunta/variable de la GEIH),En ese segundo trabajo ... Es:,Discreta,Numérico,1,1=Obrero o empleado de empresa particular; 2=Obrero o empleado del gobierno; 3=Empleado doméstico; 4=Trabajador por cuenta propia; 5=Patrón o empleador; 6=Trabajador familiar sin remuneración; 7=Trabajador sin remuneración en empresas o negocios de otros hogares; 8=Jornalero o peón; 9=Otro,integer,31565,9,1.0,9.0,factor (categórica),9 = 'Otro' es categoría válida
+p7070,P7070,DANE (pregunta/variable de la GEIH),¿cuánto recibio o ganó ... El mes pasado en ese segundo trabajo?,Continua,Numérico,8,,integer,15527,90,0.0,10000000.0,integer (cantidad entera),
+p7090,P7090,DANE (pregunta/variable de la GEIH),Además de la horas que trabaja actualmente ¿... Quiere trabajar más horas?,Discreta,Numérico,1,1=Sí; 2=No,integer,15495,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7110,P7110,DANE (pregunta/variable de la GEIH),"Durante las ultimas 4 semanas, ¿... Hizo diligencias para trabajar más horas?",Discreta,Numérico,1,1=Sí; 2=No,integer,30556,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7120,P7120,DANE (pregunta/variable de la GEIH),Si la semana pasada le hubiera resultado la posibilidad de trabajar más horas ¿estaba ... Disponible para hacerlo?,Discreta,Numérico,1,1=Sí; 2=No,integer,30556,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7140s1,P7140S1,DANE (pregunta/variable de la GEIH),Para mejorar la utilización de sus capacidades o formación?,Discreta,Numérico,1,1=Sí; 2=No,integer,28712,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7140s2,P7140S2,DANE (pregunta/variable de la GEIH),Desea mejorar sus ingresos?,Discreta,Numérico,1,1=Sí; 2=No,integer,28712,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7150,P7150,DANE (pregunta/variable de la GEIH),"Durante las ultimas 4 semanas, ¿... Hizo diligencias para cambiar de trabajo?",Discreta,Numérico,1,1=Sí; 2=No,integer,28712,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7160,P7160,DANE (pregunta/variable de la GEIH),Si le resultara un nuevo trabajo o empleo a ... ¿podría empezar a desempeñarlo antes de un mes?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,28712,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 29 casos: tratar como NA"
+p7310,P7310,DANE (pregunta/variable de la GEIH),¿... Ha buscado trabajo por primera vez o había trabajado antes por lo menos durante dos semanas consecutivas?,Discreta,Numérico,1,1=Primera vez; 2=Trabajó antes,integer,30202,2,1.0,2.0,factor 1/2,
+p7350,P7350,DANE (pregunta/variable de la GEIH),En este último trabajo era:,Discreta,Numérico,1,1=Obrero o empleado de empresa particular; 2=Obrero o empleado del gobierno; 3=Empleado doméstico; 4=Trabajador por cuenta propia; 5=Patrón o empleador; 6=Trabajador familiar sin remuneración; 7=Trabajador sin remuneración en empresas o negocios de otros hogares; 8=Jornalero o peón; 9=Otro,integer,30390,9,1.0,9.0,factor (categórica),9 = 'Otro' es categoría válida
+p7422,P7422,DANE (pregunta/variable de la GEIH),¿recibió o ganó el mes pasado ingresos por concepto de trabajo?,Discreta,Numérico,1,1=Sí; 2=No,integer,30390,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7422s1,P7422S1,DANE (pregunta/variable de la GEIH),¿cuánto?,Continua,Numérico,7,,integer,30390,93,0.0,14000000.0,integer (cantidad entera),
+p7472,P7472,DANE (pregunta/variable de la GEIH),¿recibió o ganó el mes pasado ingresos por concepto de trabajo?,Discreta,Numérico,1,1=Sí; 2=No,integer,23545,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,pregunta del capítulo INACTIVOS (no desocupados)
+p7472s1,P7472S1,DANE (pregunta/variable de la GEIH),¿cuánto?,Continua,Numérico,7,,integer,23545,52,0.0,5000000.0,integer (cantidad entera),pregunta del capítulo INACTIVOS (no desocupados)
+p7495,P7495,DANE (pregunta/variable de la GEIH),"El mes pasado, ¿recibió pagos por concepto de arriendos o pensiones?",Discreta,Numérico,1,1=Sí; 2=No,integer,4888,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7500s1,P7500S1,DANE (pregunta/variable de la GEIH),"Arriendos de casas, apartamentos, fincas, lotes, vehículos, equipos etc",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,28315,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 1 casos: tratar como NA"
+p7500s1a1,P7500S1A1,DANE (pregunta/variable de la GEIH),Valor mes pasado,Continua,Numérico,8,,integer,4888,138,0.0,20000000.0,integer (cantidad entera),
+p7500s2,P7500S2,DANE (pregunta/variable de la GEIH),"Pensiones o jubilaciones por vejez, invalidez o sustitución pensional",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,28315,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 1 casos: tratar como NA"
+p7500s2a1,P7500S2A1,DANE (pregunta/variable de la GEIH),Valor mes pasado,Continua,Numérico,8,,integer,4888,267,0.0,80000000.0,integer (cantidad entera),
+p7500s3,P7500S3,DANE (pregunta/variable de la GEIH),"Pensión alimenticia por paternidad, divorcio o separación",Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,28315,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 1 casos: tratar como NA"
+p7500s3a1,P7500S3A1,DANE (pregunta/variable de la GEIH),Valor mes pasado,Continua,Numérico,7,,integer,4888,66,0.0,7200000.0,integer (cantidad entera),
+p7505,P7505,DANE (pregunta/variable de la GEIH),"Durante los últimos doce meses, ¿recibió dinero de otros hogares, personas o instituciones; dinero por intereses, divide",Discreta,Numérico,1,1=Sí; 2=No,integer,4888,2,1.0,2.0,integer 1/2 -> dummy 0/1 si se usa,
+p7510s1,P7510S1,DANE (pregunta/variable de la GEIH),Dinero de otros hogares o personas residentes en el país?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 8 casos: tratar como NA"
+p7510s1a1,P7510S1A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,8,,integer,4888,147,0.0,120000000.0,integer (cantidad entera),
+p7510s2,P7510S2,DANE (pregunta/variable de la GEIH),Dinero de otros hogares o personas residentes fuera del país?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 3 casos: tratar como NA"
+p7510s2a1,P7510S2A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,8,,integer,4888,49,0.0,96000000.0,integer (cantidad entera),
+p7510s3,P7510S3,DANE (pregunta/variable de la GEIH),Ayudas en dinero de instituciones del país o de fuera del país?,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 2 casos: tratar como NA"
+p7510s3a1,P7510S3A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,8,,integer,4888,113,0.0,30000000.0,integer (cantidad entera),
+p7510s5,P7510S5,DANE (pregunta/variable de la GEIH),Durante los últimos doce meses recibió,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 90 casos: tratar como NA"
+p7510s5a1,P7510S5A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,9,,integer,4888,64,0.0,400000000.0,integer (cantidad entera),
+p7510s6,P7510S6,DANE (pregunta/variable de la GEIH),Ingresos por concepto de cesantías y/o intereses a la cesatías,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 121 casos: tratar como NA"
+p7510s6a1,P7510S6A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,8,,integer,4888,303,0.0,75000000.0,integer (cantidad entera),
+p7510s7,P7510S7,DANE (pregunta/variable de la GEIH),Durante los últimos doce meses recibió,Discreta,Numérico,1,"1=Sí; 2=No; 9=No sabe, no informa",integer,24342,3,1.0,9.0,integer 1/2/9 -> dummy 0/1 con 9 = NA,"código 9 = 'No sabe, no informa' presente en 28 casos: tratar como NA"
+p7510s7a1,P7510S7A1,DANE (pregunta/variable de la GEIH),Valor,Continua,Numérico,8,,integer,4888,253,0.0,220000000.0,integer (cantidad entera),
+pet,,Curso (construida por M. Fernández),,,,,,integer,4888,1,1.0,1.0,integer 1/NA -> convertir a 0/1 si se usa,codificada 1/NA como OCI/DSI/INI del DANE
+ina,INI,DANE (pregunta/variable de la GEIH),Inactivos,Discreta,Numérico,1,1=Inactivos,integer,23545,1,1.0,1.0,integer 1/NA -> convertir a 0/1 si se usa,codificada 1/NA como OCI/DSI/INI del DANE
+impa,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,15767,3710,0.0,50000000.0,double (cantidad),
+isa,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,15527,90,0.0,10000000.0,integer (cantidad entera),
+ie,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,21549,183,0.0,6300000.0,integer (cantidad entera),
+imdi,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31752,105,0.0,14000000.0,integer (cantidad entera),
+iof1,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,4888,64,0.0,33333333.3333333,double (cantidad),
+iof2,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,4888,266,0.0,24000000.0,integer (cantidad entera),
+iof3h,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,4888,191,0.0,10000000.0,double (cantidad),
+iof3i,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,4888,97,0.0,600000.0,double (cantidad),
+iof6,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,4888,138,0.0,20000000.0,integer (cantidad entera),
+cclasnr2,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,30718,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr3,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,32111,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr4,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31903,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr5,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,32141,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr6,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31924,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr7,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31891,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr8,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31844,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+cclasnr11,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31998,1,1.0,1.0,integer 0/1 (bandera de imputación DANE),
+impaes,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,30694,549,15000.0,50000000.0,integer (cantidad entera),
+isaes,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,32111,36,6000.0,8000000.0,integer (cantidad entera),
+iees,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31901,77,20000.0,3000000.0,integer (cantidad entera),
+imdies,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,32141,25,30000.0,2000000.0,integer (cantidad entera),
+iof1es,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31923,71,83.0,8333333.0,integer (cantidad entera),
+iof2es,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31890,109,706000.0,13200000.0,integer (cantidad entera),
+iof3hes,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31851,78,8333.0,9600000.0,integer (cantidad entera),
+iof3ies,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,32145,21,12500.0,516667.0,integer (cantidad entera),
+iof6es,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,31998,48,50000.0,8000000.0,integer (cantidad entera),
+ingtotob,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,4888,4676,0.0,85833333.3333333,double (cantidad),
+ingtotes,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,integer,29497,785,83.0,50000000.0,integer (cantidad entera),
+ingtot,,"DANE (módulo de ingresos, pobreza monetaria)",,,,,,double,4888,5355,0.0,85833333.3333333,double (cantidad),
+fex_c,,Curso (construida por M. Fernández),,,,,,double,0,3536,106.612617426093,808.241451693803,double (ponderador),suma 8.164.164 ≈ población de Bogotá 2018: es fex_c_2011/12 (anualizado)
+depto,DPTO,DANE (pregunta/variable de la GEIH),Departamento,Discreta,Carácter,2,"05=Antioquia; 08=Atlántico; 11=Bogotá, d.C.; 13=Bolívar; 17=Caldas; 23=Córdoba; 50=Meta; 52=Nariño; 54=Norte de santander; 66=Risaralda; 68=Santander; 73=Tolima; 76=Valle del cauca",integer,0,1,11.0,11.0,integer constante (no usar),
+fex_dpto,,DANE (diseño muestral / identificación),,,,,,double,0,3536,106.612617426093,808.241451693803,double (ponderador),
+fweight,,DANE (diseño muestral / identificación),,,,,,integer,0,409,107.0,808.0,integer (ponderador redondeado),
+maxEducLevel,,Curso (construida por M. Fernández),,,,,,integer,3569,7,1.0,7.0,factor (categórica; 9 = NA),
+college,,Curso (construida por M. Fernández),,,,,,integer,0,2,0.0,1.0,integer 0/1 (dummy),"MAL CONSTRUIDA: vale 1 cuando maxEducLevel = 6 (media/secundaria completa), no terciaria"
+regSalud,,Curso (construida por M. Fernández),,,,,,integer,7507,3,1.0,3.0,factor (categórica; 9 = NA),
+cotPension,,Curso (construida por M. Fernández),,,,,,integer,15514,3,1.0,3.0,factor (categórica; 9 = NA),
+wap,,Curso (construida por M. Fernández),,,,,,integer,0,2,0.0,1.0,integer 0/1 (dummy),
+ocu,OCI,DANE (pregunta/variable de la GEIH),Población ocupada,Discreta,Numérico,1,1=Población ocupada,integer,0,2,0.0,1.0,integer 0/1 (dummy),OCI del DANE (1/NA) convertida a 0/1
+dsi,DSI,DANE (pregunta/variable de la GEIH),Desocupados,Discreta,Numérico,1,1=Desocupados,integer,0,2,0.0,1.0,integer 0/1 (dummy),DSI del DANE (1/NA) convertida a 0/1
+pea,,Curso (construida por M. Fernández),,,,,,integer,0,2,0.0,1.0,integer 0/1 (dummy),
+inac,,Curso (construida por M. Fernández),,,,,,integer,0,2,0.0,1.0,integer 0/1 (dummy),
+totalHoursWorked,,Curso (construida por M. Fernández),,,,,,integer,15495,112,1.0,130.0,integer (cantidad entera),"= hoursWorkUsual (p6800, horas usuales) + hoursWorkActualSecondJob (p7045) en las 16.682 filas; no usa p6850 (horas efectivas)"
+formal,,Curso (construida por M. Fernández),,,,,,integer,15495,2,0.0,1.0,integer 0/1 (dummy),
+informal,,Curso (construida por M. Fernández),,,,,,integer,15495,2,0.0,1.0,integer 0/1 (dummy),
+cuentaPropia,,Curso (construida por M. Fernández),,,,,,integer,0,2,0.0,1.0,integer 0/1 (dummy),
+microEmpresa,,Curso (construida por M. Fernández),,,,,,integer,15495,2,0.0,1.0,integer 0/1 (dummy),
+sizeFirm,,Curso (construida por M. Fernández),,,,,,integer,15495,5,1.0,5.0,factor (categórica),
+y_salary_m,,Curso (construida por M. Fernández),,,,,,integer,22213,660,10000.0,34000000.0,integer (cantidad entera),
+y_salary_m_hu,,Curso (construida por M. Fernández),,,,,,double,22213,1390,48.6111106872559,291666.65625,double (cantidad),
+y_ingLab_m,,Curso (construida por M. Fernández),,,,,,double,22213,3700,10000.0,60100000.0,double (cantidad),
+y_horasExtras_m,,Curso (construida por M. Fernández),,,,,,integer,31282,91,0.0,2000000.0,integer (cantidad entera),
+y_especie_m,,Curso (construida por M. Fernández),,,,,,integer,30850,125,0.0,1000000.0,integer (cantidad entera),
+y_vivienda_m,,Curso (construida por M. Fernández),,,,,,integer,32073,20,0.0,6000000.0,integer (cantidad entera),
+y_otros_m,,Curso (construida por M. Fernández),,,,,,integer,32046,47,0.0,4500000.0,integer (cantidad entera),
+y_auxilioAliment_m,,Curso (construida por M. Fernández),,,,,,integer,31770,82,0.0,1428000.0,integer (cantidad entera),
+y_auxilioTransp_m,,Curso (construida por M. Fernández),,,,,,integer,26706,117,0.0,3000000.0,integer (cantidad entera),
+y_subFamiliar_m,,Curso (construida por M. Fernández),,,,,,integer,29876,139,0.0,940000.0,integer (cantidad entera),
+y_subEducativo_m,,Curso (construida por M. Fernández),,,,,,integer,32139,26,0.0,2700000.0,integer (cantidad entera),
+y_primas_m,,Curso (construida por M. Fernández),,,,,,integer,32082,43,0.0,3500000.0,integer (cantidad entera),
+y_bonificaciones_m,,Curso (construida por M. Fernández),,,,,,integer,31811,78,0.0,47200000.0,integer (cantidad entera),
+y_primaServicios_m,,Curso (construida por M. Fernández),,,,,,integer,24970,400,0.0,56000000.0,integer (cantidad entera),
+y_primaNavidad_m,,Curso (construida por M. Fernández),,,,,,integer,31572,98,0.0,36500000.0,integer (cantidad entera),
+y_primaVacaciones_m,,Curso (construida por M. Fernández),,,,,,integer,31598,78,0.0,77000000.0,integer (cantidad entera),
+y_viaticos_m,,Curso (construida por M. Fernández),,,,,,integer,31778,89,0.0,130000000.0,integer (cantidad entera),
+y_accidentes_m,,Curso (construida por M. Fernández),,,,,,integer,32142,19,0.0,3125000.0,integer (cantidad entera),
+y_salarySec_m,,Curso (construida por M. Fernández),,,,,,integer,31716,89,6000.0,10000000.0,integer (cantidad entera),
+y_ingLab_m_ha,,Curso (construida por M. Fernández),,,,,,double,22213,5049,48.6111106872559,350583.34375,double (cantidad),
+y_gananciaNeta_m,,Curso (construida por M. Fernández),,,,,,double,27273,237,84.0,70000000.0,double (cantidad),
+y_gananciaNetaAgro_m,,Curso (construida por M. Fernández),,,,,,integer (todo NA),32177,0,,,integer (cantidad entera),100% NA: pregunta solo para centros poblados y rural disperso
+y_gananciaIndep_m,,Curso (construida por M. Fernández),,,,,,double,27273,237,84.0,70000000.0,double (cantidad),
+y_gananciaIndep_m_hu,,Curso (construida por M. Fernández),,,,,,double,27273,698,0.47152778506279,340277.78125,double (cantidad),
+y_total_m,,Curso (construida por M. Fernández),,,,,,double,17309,3772,84.0,70000000.0,double (cantidad),
+y_total_m_ha,,Curso (construida por M. Fernández),,,,,,double,17309,5441,0.47152778506279,350583.34375,double (cantidad),
