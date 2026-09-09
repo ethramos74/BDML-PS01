@@ -1,0 +1,20 @@
+paso,movimiento,grupos,n_columnas,RMSE_LOOCV
+0,inicio,,1,0.8882122013448469
+1,añadir oficio_f,oficio_f,57,0.7365406620295744
+2,añadir totalHoursWorked,oficio_f|totalHoursWorked,64,0.6411010856867774
+3,añadir anios_educ,anios_educ|oficio_f|totalHoursWorked,66,0.5984824029645406
+4,añadir formal,anios_educ|formal|oficio_f|totalHoursWorked,74,0.5749737944051602
+5,añadir estrato_f,anios_educ|estrato_f|formal|oficio_f|totalHoursWorked,79,0.5530390036754571
+6,añadir relab_f,anios_educ|estrato_f|formal|oficio_f|relab_f|totalHoursWorked,119,0.5427408585657638
+7,añadir age,age|anios_educ|estrato_f|formal|oficio_f|relab_f|totalHoursWorked,168,0.5333635643024944
+8,añadir sizeFirm_f,age|anios_educ|estrato_f|formal|oficio_f|relab_f|sizeFirm_f|totalHoursWorked,172,0.524546013717123
+9,añadir antiguedad_anios,age|anios_educ|antiguedad_anios|estrato_f|formal|oficio_f|relab_f|sizeFirm_f|totalHoursWorked,216,0.5171458883447378
+10,añadir female,age|anios_educ|antiguedad_anios|estrato_f|female|formal|oficio_f|relab_f|sizeFirm_f|totalHoursWorked,241,0.5114396921631665
+11,añadir parentesco_f,age|anios_educ|antiguedad_anios|estrato_f|female|formal|oficio_f|parentesco_f|relab_f|sizeFirm_f|totalHoursWorked,249,0.509196601244587
+12,añadir quiere_mas_horas,age|anios_educ|antiguedad_anios|estrato_f|female|formal|oficio_f|parentesco_f|quiere_mas_horas|relab_f|sizeFirm_f|totalHoursWorked,250,0.507942302900629
+13,añadir educ_f,age|anios_educ|antiguedad_anios|educ_f|estrato_f|female|formal|oficio_f|parentesco_f|quiere_mas_horas|relab_f|sizeFirm_f|totalHoursWorked,295,0.5071480450578683
+14,añadir oficio_grupo,age|anios_educ|antiguedad_anios|educ_f|estrato_f|female|formal|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|relab_f|sizeFirm_f|totalHoursWorked,331,0.5065062342321117
+15,añadir cotiza_pension,age|anios_educ|antiguedad_anios|cotiza_pension|educ_f|estrato_f|female|formal|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|relab_f|sizeFirm_f|totalHoursWorked,332,0.5059677808172549
+16,añadir regSalud_f,age|anios_educ|antiguedad_anios|cotiza_pension|educ_f|estrato_f|female|formal|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|regSalud_f|relab_f|sizeFirm_f|totalHoursWorked,335,0.5054170410699034
+17,añadir microEmpresa,age|anios_educ|antiguedad_anios|cotiza_pension|educ_f|estrato_f|female|formal|microEmpresa|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|regSalud_f|relab_f|sizeFirm_f|totalHoursWorked,336,0.5054023389183928
+18,añadir cuentaPropia,age|anios_educ|antiguedad_anios|cotiza_pension|cuentaPropia|educ_f|estrato_f|female|formal|microEmpresa|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|regSalud_f|relab_f|sizeFirm_f|totalHoursWorked,337,0.5054004581701897

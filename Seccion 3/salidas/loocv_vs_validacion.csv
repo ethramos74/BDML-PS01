@@ -1,0 +1,4 @@
+medida,RMSE
+LOOCV condicional,0.505400431418919
+"CV 5, transformaciones y lambda renovadas; grupos fijos",0.5500736723589319
+Validación bloques 8-10,0.5384437939188244

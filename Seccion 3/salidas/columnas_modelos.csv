@@ -1,0 +1,2698 @@
+modelo,columna,variables
+M0,(Intercepto),
+M1,(Intercepto),
+M1,age,age
+M1,age^2,age
+M2,(Intercepto),
+M2,age,age
+M2,age^2,age
+M2,totalHoursWorked,totalHoursWorked
+M2,relab_f[Empleado del gobierno],relab_f
+M2,relab_f[Empleado domestico],relab_f
+M2,relab_f[Obrero/empleado particular],relab_f
+M2,relab_f[Otro],relab_f
+M2,relab_f[Patron/empleador],relab_f
+M3,(Intercepto),
+M3,female,female
+M4,(Intercepto),
+M4,female,female
+M4,age,age
+M4,age^2,age
+M4,educ_f[Primaria completa],educ_f
+M4,educ_f[Primaria incompleta],educ_f
+M4,educ_f[Secundaria completa],educ_f
+M4,educ_f[Secundaria incompleta],educ_f
+M4,educ_f[Terciaria],educ_f
+M4,totalHoursWorked,totalHoursWorked
+M4,totalHoursWorked^2,totalHoursWorked
+M4,relab_f[Empleado del gobierno],relab_f
+M4,relab_f[Empleado domestico],relab_f
+M4,relab_f[Obrero/empleado particular],relab_f
+M4,relab_f[Otro],relab_f
+M4,relab_f[Patron/empleador],relab_f
+M4,formal,formal
+M4,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M4,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M4,sizeFirm_f[Independiente],sizeFirm_f
+M4,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M4,oficio_grupo[Agropecuarios],oficio_grupo
+M4,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M4,oficio_grupo[Directivos],oficio_grupo
+M4,oficio_grupo[Operarios y transporte],oficio_grupo
+M4,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M4,oficio_grupo[Servicios],oficio_grupo
+M4i,(Intercepto),
+M4i,female,female
+M4i,age,age
+M4i,age^2,age
+M4i,educ_f[Primaria completa],educ_f
+M4i,educ_f[Primaria incompleta],educ_f
+M4i,educ_f[Secundaria completa],educ_f
+M4i,educ_f[Secundaria incompleta],educ_f
+M4i,educ_f[Terciaria],educ_f
+M4i,totalHoursWorked,totalHoursWorked
+M4i,totalHoursWorked^2,totalHoursWorked
+M4i,relab_f[Empleado del gobierno],relab_f
+M4i,relab_f[Empleado domestico],relab_f
+M4i,relab_f[Obrero/empleado particular],relab_f
+M4i,relab_f[Otro],relab_f
+M4i,relab_f[Patron/empleador],relab_f
+M4i,formal,formal
+M4i,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M4i,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M4i,sizeFirm_f[Independiente],sizeFirm_f
+M4i,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M4i,oficio_grupo[Agropecuarios],oficio_grupo
+M4i,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M4i,oficio_grupo[Directivos],oficio_grupo
+M4i,oficio_grupo[Operarios y transporte],oficio_grupo
+M4i,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M4i,oficio_grupo[Servicios],oficio_grupo
+M4i,female:age,age|female
+M4i,female:age^2,age|female
+M5,(Intercepto),
+M5,female,female
+M5,age,age
+M5,age^2,age
+M5,educ_f[Primaria completa],educ_f
+M5,educ_f[Primaria incompleta],educ_f
+M5,educ_f[Secundaria completa],educ_f
+M5,educ_f[Secundaria incompleta],educ_f
+M5,educ_f[Terciaria],educ_f
+M5,totalHoursWorked,totalHoursWorked
+M5,totalHoursWorked^2,totalHoursWorked
+M5,relab_f[Empleado del gobierno],relab_f
+M5,relab_f[Empleado domestico],relab_f
+M5,relab_f[Obrero/empleado particular],relab_f
+M5,relab_f[Otro],relab_f
+M5,relab_f[Patron/empleador],relab_f
+M5,formal,formal
+M5,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M5,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M5,sizeFirm_f[Independiente],sizeFirm_f
+M5,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M5,oficio_grupo[Agropecuarios],oficio_grupo
+M5,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M5,oficio_grupo[Directivos],oficio_grupo
+M5,oficio_grupo[Operarios y transporte],oficio_grupo
+M5,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M5,oficio_grupo[Servicios],oficio_grupo
+M5,estrato_f[2],estrato_f
+M5,estrato_f[3],estrato_f
+M5,estrato_f[4],estrato_f
+M5,estrato_f[5],estrato_f
+M5,estrato_f[6],estrato_f
+M5,jefe_hogar,jefe_hogar
+M5,antiguedad_anios,antiguedad_anios
+M5,antiguedad_anios^2,antiguedad_anios
+M5,segundo_empleo,segundo_empleo
+M6,(Intercepto),
+M6,female,female
+M6,age,age
+M6,age^2,age
+M6,age^3,age
+M6,educ_f[Primaria completa],educ_f
+M6,educ_f[Primaria incompleta],educ_f
+M6,educ_f[Secundaria completa],educ_f
+M6,educ_f[Secundaria incompleta],educ_f
+M6,educ_f[Terciaria],educ_f
+M6,totalHoursWorked,totalHoursWorked
+M6,totalHoursWorked^2,totalHoursWorked
+M6,totalHoursWorked^3,totalHoursWorked
+M6,relab_f[Empleado del gobierno],relab_f
+M6,relab_f[Empleado domestico],relab_f
+M6,relab_f[Obrero/empleado particular],relab_f
+M6,relab_f[Otro],relab_f
+M6,relab_f[Patron/empleador],relab_f
+M6,formal,formal
+M6,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M6,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M6,sizeFirm_f[Independiente],sizeFirm_f
+M6,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M6,oficio_grupo[Agropecuarios],oficio_grupo
+M6,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M6,oficio_grupo[Directivos],oficio_grupo
+M6,oficio_grupo[Operarios y transporte],oficio_grupo
+M6,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M6,oficio_grupo[Servicios],oficio_grupo
+M6,estrato_f[2],estrato_f
+M6,estrato_f[3],estrato_f
+M6,estrato_f[4],estrato_f
+M6,estrato_f[5],estrato_f
+M6,estrato_f[6],estrato_f
+M6,jefe_hogar,jefe_hogar
+M6,antiguedad_anios,antiguedad_anios
+M6,antiguedad_anios^2,antiguedad_anios
+M6,antiguedad_anios^3,antiguedad_anios
+M6,segundo_empleo,segundo_empleo
+M7,(Intercepto),
+M7,female,female
+M7,age,age
+M7,age^2,age
+M7,age^3,age
+M7,age^4,age
+M7,educ_f[Primaria completa],educ_f
+M7,educ_f[Primaria incompleta],educ_f
+M7,educ_f[Secundaria completa],educ_f
+M7,educ_f[Secundaria incompleta],educ_f
+M7,educ_f[Terciaria],educ_f
+M7,totalHoursWorked,totalHoursWorked
+M7,totalHoursWorked^2,totalHoursWorked
+M7,totalHoursWorked^3,totalHoursWorked
+M7,totalHoursWorked^4,totalHoursWorked
+M7,relab_f[Empleado del gobierno],relab_f
+M7,relab_f[Empleado domestico],relab_f
+M7,relab_f[Obrero/empleado particular],relab_f
+M7,relab_f[Otro],relab_f
+M7,relab_f[Patron/empleador],relab_f
+M7,formal,formal
+M7,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M7,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M7,sizeFirm_f[Independiente],sizeFirm_f
+M7,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M7,oficio_grupo[Agropecuarios],oficio_grupo
+M7,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M7,oficio_grupo[Directivos],oficio_grupo
+M7,oficio_grupo[Operarios y transporte],oficio_grupo
+M7,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M7,oficio_grupo[Servicios],oficio_grupo
+M7,estrato_f[2],estrato_f
+M7,estrato_f[3],estrato_f
+M7,estrato_f[4],estrato_f
+M7,estrato_f[5],estrato_f
+M7,estrato_f[6],estrato_f
+M7,jefe_hogar,jefe_hogar
+M7,antiguedad_anios,antiguedad_anios
+M7,antiguedad_anios^2,antiguedad_anios
+M7,antiguedad_anios^3,antiguedad_anios
+M7,antiguedad_anios^4,antiguedad_anios
+M7,segundo_empleo,segundo_empleo
+M8,(Intercepto),
+M8,female,female
+M8,bs(age)_1,age
+M8,bs(age)_2,age
+M8,bs(age)_3,age
+M8,bs(age)_4,age
+M8,bs(age)_5,age
+M8,bs(age)_6,age
+M8,bs(age)_7,age
+M8,educ_f[Primaria completa],educ_f
+M8,educ_f[Primaria incompleta],educ_f
+M8,educ_f[Secundaria completa],educ_f
+M8,educ_f[Secundaria incompleta],educ_f
+M8,educ_f[Terciaria],educ_f
+M8,bs(totalHoursWorked)_1,totalHoursWorked
+M8,bs(totalHoursWorked)_2,totalHoursWorked
+M8,bs(totalHoursWorked)_3,totalHoursWorked
+M8,bs(totalHoursWorked)_4,totalHoursWorked
+M8,bs(totalHoursWorked)_5,totalHoursWorked
+M8,bs(totalHoursWorked)_6,totalHoursWorked
+M8,bs(totalHoursWorked)_7,totalHoursWorked
+M8,relab_f[Empleado del gobierno],relab_f
+M8,relab_f[Empleado domestico],relab_f
+M8,relab_f[Obrero/empleado particular],relab_f
+M8,relab_f[Otro],relab_f
+M8,relab_f[Patron/empleador],relab_f
+M8,formal,formal
+M8,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M8,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M8,sizeFirm_f[Independiente],sizeFirm_f
+M8,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M8,oficio_grupo[Agropecuarios],oficio_grupo
+M8,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M8,oficio_grupo[Directivos],oficio_grupo
+M8,oficio_grupo[Operarios y transporte],oficio_grupo
+M8,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M8,oficio_grupo[Servicios],oficio_grupo
+M8,estrato_f[2],estrato_f
+M8,estrato_f[3],estrato_f
+M8,estrato_f[4],estrato_f
+M8,estrato_f[5],estrato_f
+M8,estrato_f[6],estrato_f
+M8,jefe_hogar,jefe_hogar
+M8,bs(antiguedad_anios)_1,antiguedad_anios
+M8,bs(antiguedad_anios)_2,antiguedad_anios
+M8,bs(antiguedad_anios)_3,antiguedad_anios
+M8,bs(antiguedad_anios)_4,antiguedad_anios
+M8,bs(antiguedad_anios)_5,antiguedad_anios
+M8,bs(antiguedad_anios)_6,antiguedad_anios
+M8,segundo_empleo,segundo_empleo
+M9,(Intercepto),
+M9,female,female
+M9,bs(age)_1,age
+M9,bs(age)_2,age
+M9,bs(age)_3,age
+M9,bs(age)_4,age
+M9,bs(age)_5,age
+M9,bs(age)_6,age
+M9,bs(age)_7,age
+M9,educ_f[Primaria completa],educ_f
+M9,educ_f[Primaria incompleta],educ_f
+M9,educ_f[Secundaria completa],educ_f
+M9,educ_f[Secundaria incompleta],educ_f
+M9,educ_f[Terciaria],educ_f
+M9,bs(totalHoursWorked)_1,totalHoursWorked
+M9,bs(totalHoursWorked)_2,totalHoursWorked
+M9,bs(totalHoursWorked)_3,totalHoursWorked
+M9,bs(totalHoursWorked)_4,totalHoursWorked
+M9,bs(totalHoursWorked)_5,totalHoursWorked
+M9,bs(totalHoursWorked)_6,totalHoursWorked
+M9,bs(totalHoursWorked)_7,totalHoursWorked
+M9,relab_f[Empleado del gobierno],relab_f
+M9,relab_f[Empleado domestico],relab_f
+M9,relab_f[Obrero/empleado particular],relab_f
+M9,relab_f[Otro],relab_f
+M9,relab_f[Patron/empleador],relab_f
+M9,formal,formal
+M9,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M9,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M9,sizeFirm_f[Independiente],sizeFirm_f
+M9,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M9,oficio_grupo[Agropecuarios],oficio_grupo
+M9,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M9,oficio_grupo[Directivos],oficio_grupo
+M9,oficio_grupo[Operarios y transporte],oficio_grupo
+M9,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M9,oficio_grupo[Servicios],oficio_grupo
+M9,estrato_f[2],estrato_f
+M9,estrato_f[3],estrato_f
+M9,estrato_f[4],estrato_f
+M9,estrato_f[5],estrato_f
+M9,estrato_f[6],estrato_f
+M9,jefe_hogar,jefe_hogar
+M9,bs(antiguedad_anios)_1,antiguedad_anios
+M9,bs(antiguedad_anios)_2,antiguedad_anios
+M9,bs(antiguedad_anios)_3,antiguedad_anios
+M9,bs(antiguedad_anios)_4,antiguedad_anios
+M9,bs(antiguedad_anios)_5,antiguedad_anios
+M9,bs(antiguedad_anios)_6,antiguedad_anios
+M9,segundo_empleo,segundo_empleo
+M9,female:bs(age)_1,age|female
+M9,female:bs(age)_2,age|female
+M9,female:bs(age)_3,age|female
+M9,female:bs(age)_4,age|female
+M9,female:bs(age)_5,age|female
+M9,female:bs(age)_6,age|female
+M9,female:bs(age)_7,age|female
+M9,female:educ_f[Primaria completa],educ_f|female
+M9,female:educ_f[Primaria incompleta],educ_f|female
+M9,female:educ_f[Secundaria completa],educ_f|female
+M9,female:educ_f[Secundaria incompleta],educ_f|female
+M9,female:educ_f[Terciaria],educ_f|female
+M9,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+M9,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+M9,female:relab_f[Empleado del gobierno],female|relab_f
+M9,female:relab_f[Empleado domestico],female|relab_f
+M9,female:relab_f[Obrero/empleado particular],female|relab_f
+M9,female:relab_f[Otro],female|relab_f
+M9,female:relab_f[Patron/empleador],female|relab_f
+M9,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+M9,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+M9,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+M9,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+M9,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_1,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_2,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_3,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_4,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_5,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_6,age|educ_f
+M9,educ_f[Terciaria]:bs(age)_7,age|educ_f
+M9,oficio_f[02],oficio_f
+M9,oficio_f[03],oficio_f
+M9,oficio_f[05],oficio_f
+M9,oficio_f[06],oficio_f
+M9,oficio_f[07],oficio_f
+M9,oficio_f[08],oficio_f
+M9,oficio_f[09],oficio_f
+M9,oficio_f[11],oficio_f
+M9,oficio_f[12],oficio_f
+M9,oficio_f[13],oficio_f
+M9,oficio_f[15],oficio_f
+M9,oficio_f[16],oficio_f
+M9,oficio_f[17],oficio_f
+M9,oficio_f[18],oficio_f
+M9,oficio_f[19],oficio_f
+M9,oficio_f[21],oficio_f
+M9,oficio_f[30],oficio_f
+M9,oficio_f[32],oficio_f
+M9,oficio_f[33],oficio_f
+M9,oficio_f[34],oficio_f
+M9,oficio_f[36],oficio_f
+M9,oficio_f[37],oficio_f
+M9,oficio_f[38],oficio_f
+M9,oficio_f[39],oficio_f
+M9,oficio_f[40],oficio_f
+M9,oficio_f[41],oficio_f
+M9,oficio_f[42],oficio_f
+M9,oficio_f[44],oficio_f
+M9,oficio_f[45],oficio_f
+M9,oficio_f[50],oficio_f
+M9,oficio_f[51],oficio_f
+M9,oficio_f[53],oficio_f
+M9,oficio_f[54],oficio_f
+M9,oficio_f[55],oficio_f
+M9,oficio_f[56],oficio_f
+M9,oficio_f[57],oficio_f
+M9,oficio_f[58],oficio_f
+M9,oficio_f[59],oficio_f
+M9,oficio_f[62],oficio_f
+M9,oficio_f[70],oficio_f
+M9,oficio_f[75],oficio_f
+M9,oficio_f[77],oficio_f
+M9,oficio_f[79],oficio_f
+M9,oficio_f[80],oficio_f
+M9,oficio_f[81],oficio_f
+M9,oficio_f[83],oficio_f
+M9,oficio_f[84],oficio_f
+M9,oficio_f[85],oficio_f
+M9,oficio_f[87],oficio_f
+M9,oficio_f[90],oficio_f
+M9,oficio_f[92],oficio_f
+M9,oficio_f[93],oficio_f
+M9,oficio_f[95],oficio_f
+M9,oficio_f[97],oficio_f
+M9,oficio_f[98],oficio_f
+M9,oficio_f[99],oficio_f
+R1,(Intercepto),
+R1,female,female
+R1,age,age
+R1,age^2,age
+R1,age^3,age
+R1,age^4,age
+R1,educ_f[Primaria completa],educ_f
+R1,educ_f[Primaria incompleta],educ_f
+R1,educ_f[Secundaria completa],educ_f
+R1,educ_f[Secundaria incompleta],educ_f
+R1,educ_f[Terciaria],educ_f
+R1,totalHoursWorked,totalHoursWorked
+R1,totalHoursWorked^2,totalHoursWorked
+R1,totalHoursWorked^3,totalHoursWorked
+R1,totalHoursWorked^4,totalHoursWorked
+R1,relab_f[Empleado del gobierno],relab_f
+R1,relab_f[Empleado domestico],relab_f
+R1,relab_f[Obrero/empleado particular],relab_f
+R1,relab_f[Otro],relab_f
+R1,relab_f[Patron/empleador],relab_f
+R1,formal,formal
+R1,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R1,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R1,sizeFirm_f[Independiente],sizeFirm_f
+R1,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R1,oficio_grupo[Agropecuarios],oficio_grupo
+R1,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R1,oficio_grupo[Directivos],oficio_grupo
+R1,oficio_grupo[Operarios y transporte],oficio_grupo
+R1,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R1,oficio_grupo[Servicios],oficio_grupo
+R1,estrato_f[2],estrato_f
+R1,estrato_f[3],estrato_f
+R1,estrato_f[4],estrato_f
+R1,estrato_f[5],estrato_f
+R1,estrato_f[6],estrato_f
+R1,jefe_hogar,jefe_hogar
+R1,antiguedad_anios,antiguedad_anios
+R1,antiguedad_anios^2,antiguedad_anios
+R1,antiguedad_anios^3,antiguedad_anios
+R1,antiguedad_anios^4,antiguedad_anios
+R1,segundo_empleo,segundo_empleo
+R2,(Intercepto),
+R2,female,female
+R2,bs(age)_1,age
+R2,bs(age)_2,age
+R2,bs(age)_3,age
+R2,bs(age)_4,age
+R2,bs(age)_5,age
+R2,bs(age)_6,age
+R2,bs(age)_7,age
+R2,educ_f[Primaria completa],educ_f
+R2,educ_f[Primaria incompleta],educ_f
+R2,educ_f[Secundaria completa],educ_f
+R2,educ_f[Secundaria incompleta],educ_f
+R2,educ_f[Terciaria],educ_f
+R2,bs(totalHoursWorked)_1,totalHoursWorked
+R2,bs(totalHoursWorked)_2,totalHoursWorked
+R2,bs(totalHoursWorked)_3,totalHoursWorked
+R2,bs(totalHoursWorked)_4,totalHoursWorked
+R2,bs(totalHoursWorked)_5,totalHoursWorked
+R2,bs(totalHoursWorked)_6,totalHoursWorked
+R2,bs(totalHoursWorked)_7,totalHoursWorked
+R2,relab_f[Empleado del gobierno],relab_f
+R2,relab_f[Empleado domestico],relab_f
+R2,relab_f[Obrero/empleado particular],relab_f
+R2,relab_f[Otro],relab_f
+R2,relab_f[Patron/empleador],relab_f
+R2,formal,formal
+R2,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R2,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R2,sizeFirm_f[Independiente],sizeFirm_f
+R2,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R2,oficio_grupo[Agropecuarios],oficio_grupo
+R2,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R2,oficio_grupo[Directivos],oficio_grupo
+R2,oficio_grupo[Operarios y transporte],oficio_grupo
+R2,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R2,oficio_grupo[Servicios],oficio_grupo
+R2,estrato_f[2],estrato_f
+R2,estrato_f[3],estrato_f
+R2,estrato_f[4],estrato_f
+R2,estrato_f[5],estrato_f
+R2,estrato_f[6],estrato_f
+R2,jefe_hogar,jefe_hogar
+R2,bs(antiguedad_anios)_1,antiguedad_anios
+R2,bs(antiguedad_anios)_2,antiguedad_anios
+R2,bs(antiguedad_anios)_3,antiguedad_anios
+R2,bs(antiguedad_anios)_4,antiguedad_anios
+R2,bs(antiguedad_anios)_5,antiguedad_anios
+R2,bs(antiguedad_anios)_6,antiguedad_anios
+R2,segundo_empleo,segundo_empleo
+R2,female:bs(age)_1,age|female
+R2,female:bs(age)_2,age|female
+R2,female:bs(age)_3,age|female
+R2,female:bs(age)_4,age|female
+R2,female:bs(age)_5,age|female
+R2,female:bs(age)_6,age|female
+R2,female:bs(age)_7,age|female
+R2,female:educ_f[Primaria completa],educ_f|female
+R2,female:educ_f[Primaria incompleta],educ_f|female
+R2,female:educ_f[Secundaria completa],educ_f|female
+R2,female:educ_f[Secundaria incompleta],educ_f|female
+R2,female:educ_f[Terciaria],educ_f|female
+R2,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R2,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R2,female:relab_f[Empleado del gobierno],female|relab_f
+R2,female:relab_f[Empleado domestico],female|relab_f
+R2,female:relab_f[Obrero/empleado particular],female|relab_f
+R2,female:relab_f[Otro],female|relab_f
+R2,female:relab_f[Patron/empleador],female|relab_f
+R2,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R2,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R2,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R2,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R2,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R2,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R2,oficio_f[02],oficio_f
+R2,oficio_f[03],oficio_f
+R2,oficio_f[05],oficio_f
+R2,oficio_f[06],oficio_f
+R2,oficio_f[07],oficio_f
+R2,oficio_f[08],oficio_f
+R2,oficio_f[09],oficio_f
+R2,oficio_f[11],oficio_f
+R2,oficio_f[12],oficio_f
+R2,oficio_f[13],oficio_f
+R2,oficio_f[15],oficio_f
+R2,oficio_f[16],oficio_f
+R2,oficio_f[17],oficio_f
+R2,oficio_f[18],oficio_f
+R2,oficio_f[19],oficio_f
+R2,oficio_f[21],oficio_f
+R2,oficio_f[30],oficio_f
+R2,oficio_f[32],oficio_f
+R2,oficio_f[33],oficio_f
+R2,oficio_f[34],oficio_f
+R2,oficio_f[36],oficio_f
+R2,oficio_f[37],oficio_f
+R2,oficio_f[38],oficio_f
+R2,oficio_f[39],oficio_f
+R2,oficio_f[40],oficio_f
+R2,oficio_f[41],oficio_f
+R2,oficio_f[42],oficio_f
+R2,oficio_f[44],oficio_f
+R2,oficio_f[45],oficio_f
+R2,oficio_f[50],oficio_f
+R2,oficio_f[51],oficio_f
+R2,oficio_f[53],oficio_f
+R2,oficio_f[54],oficio_f
+R2,oficio_f[55],oficio_f
+R2,oficio_f[56],oficio_f
+R2,oficio_f[57],oficio_f
+R2,oficio_f[58],oficio_f
+R2,oficio_f[59],oficio_f
+R2,oficio_f[62],oficio_f
+R2,oficio_f[70],oficio_f
+R2,oficio_f[75],oficio_f
+R2,oficio_f[77],oficio_f
+R2,oficio_f[79],oficio_f
+R2,oficio_f[80],oficio_f
+R2,oficio_f[81],oficio_f
+R2,oficio_f[83],oficio_f
+R2,oficio_f[84],oficio_f
+R2,oficio_f[85],oficio_f
+R2,oficio_f[87],oficio_f
+R2,oficio_f[90],oficio_f
+R2,oficio_f[92],oficio_f
+R2,oficio_f[93],oficio_f
+R2,oficio_f[95],oficio_f
+R2,oficio_f[97],oficio_f
+R2,oficio_f[98],oficio_f
+R2,oficio_f[99],oficio_f
+R3,(Intercepto),
+R3,female,female
+R3,bs(age)_1,age
+R3,bs(age)_2,age
+R3,bs(age)_3,age
+R3,bs(age)_4,age
+R3,bs(age)_5,age
+R3,bs(age)_6,age
+R3,bs(age)_7,age
+R3,educ_f[Primaria completa],educ_f
+R3,educ_f[Primaria incompleta],educ_f
+R3,educ_f[Secundaria completa],educ_f
+R3,educ_f[Secundaria incompleta],educ_f
+R3,educ_f[Terciaria],educ_f
+R3,bs(totalHoursWorked)_1,totalHoursWorked
+R3,bs(totalHoursWorked)_2,totalHoursWorked
+R3,bs(totalHoursWorked)_3,totalHoursWorked
+R3,bs(totalHoursWorked)_4,totalHoursWorked
+R3,bs(totalHoursWorked)_5,totalHoursWorked
+R3,bs(totalHoursWorked)_6,totalHoursWorked
+R3,bs(totalHoursWorked)_7,totalHoursWorked
+R3,relab_f[Empleado del gobierno],relab_f
+R3,relab_f[Empleado domestico],relab_f
+R3,relab_f[Obrero/empleado particular],relab_f
+R3,relab_f[Otro],relab_f
+R3,relab_f[Patron/empleador],relab_f
+R3,formal,formal
+R3,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R3,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R3,sizeFirm_f[Independiente],sizeFirm_f
+R3,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R3,oficio_grupo[Agropecuarios],oficio_grupo
+R3,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R3,oficio_grupo[Directivos],oficio_grupo
+R3,oficio_grupo[Operarios y transporte],oficio_grupo
+R3,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R3,oficio_grupo[Servicios],oficio_grupo
+R3,estrato_f[2],estrato_f
+R3,estrato_f[3],estrato_f
+R3,estrato_f[4],estrato_f
+R3,estrato_f[5],estrato_f
+R3,estrato_f[6],estrato_f
+R3,jefe_hogar,jefe_hogar
+R3,bs(antiguedad_anios)_1,antiguedad_anios
+R3,bs(antiguedad_anios)_2,antiguedad_anios
+R3,bs(antiguedad_anios)_3,antiguedad_anios
+R3,bs(antiguedad_anios)_4,antiguedad_anios
+R3,bs(antiguedad_anios)_5,antiguedad_anios
+R3,bs(antiguedad_anios)_6,antiguedad_anios
+R3,segundo_empleo,segundo_empleo
+R3,female:bs(age)_1,age|female
+R3,female:bs(age)_2,age|female
+R3,female:bs(age)_3,age|female
+R3,female:bs(age)_4,age|female
+R3,female:bs(age)_5,age|female
+R3,female:bs(age)_6,age|female
+R3,female:bs(age)_7,age|female
+R3,female:educ_f[Primaria completa],educ_f|female
+R3,female:educ_f[Primaria incompleta],educ_f|female
+R3,female:educ_f[Secundaria completa],educ_f|female
+R3,female:educ_f[Secundaria incompleta],educ_f|female
+R3,female:educ_f[Terciaria],educ_f|female
+R3,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R3,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R3,female:relab_f[Empleado del gobierno],female|relab_f
+R3,female:relab_f[Empleado domestico],female|relab_f
+R3,female:relab_f[Obrero/empleado particular],female|relab_f
+R3,female:relab_f[Otro],female|relab_f
+R3,female:relab_f[Patron/empleador],female|relab_f
+R3,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R3,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R3,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R3,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R3,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R3,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R3,oficio_f[02],oficio_f
+R3,oficio_f[03],oficio_f
+R3,oficio_f[05],oficio_f
+R3,oficio_f[06],oficio_f
+R3,oficio_f[07],oficio_f
+R3,oficio_f[08],oficio_f
+R3,oficio_f[09],oficio_f
+R3,oficio_f[11],oficio_f
+R3,oficio_f[12],oficio_f
+R3,oficio_f[13],oficio_f
+R3,oficio_f[15],oficio_f
+R3,oficio_f[16],oficio_f
+R3,oficio_f[17],oficio_f
+R3,oficio_f[18],oficio_f
+R3,oficio_f[19],oficio_f
+R3,oficio_f[21],oficio_f
+R3,oficio_f[30],oficio_f
+R3,oficio_f[32],oficio_f
+R3,oficio_f[33],oficio_f
+R3,oficio_f[34],oficio_f
+R3,oficio_f[36],oficio_f
+R3,oficio_f[37],oficio_f
+R3,oficio_f[38],oficio_f
+R3,oficio_f[39],oficio_f
+R3,oficio_f[40],oficio_f
+R3,oficio_f[41],oficio_f
+R3,oficio_f[42],oficio_f
+R3,oficio_f[44],oficio_f
+R3,oficio_f[45],oficio_f
+R3,oficio_f[50],oficio_f
+R3,oficio_f[51],oficio_f
+R3,oficio_f[53],oficio_f
+R3,oficio_f[54],oficio_f
+R3,oficio_f[55],oficio_f
+R3,oficio_f[56],oficio_f
+R3,oficio_f[57],oficio_f
+R3,oficio_f[58],oficio_f
+R3,oficio_f[59],oficio_f
+R3,oficio_f[62],oficio_f
+R3,oficio_f[70],oficio_f
+R3,oficio_f[75],oficio_f
+R3,oficio_f[77],oficio_f
+R3,oficio_f[79],oficio_f
+R3,oficio_f[80],oficio_f
+R3,oficio_f[81],oficio_f
+R3,oficio_f[83],oficio_f
+R3,oficio_f[84],oficio_f
+R3,oficio_f[85],oficio_f
+R3,oficio_f[87],oficio_f
+R3,oficio_f[90],oficio_f
+R3,oficio_f[92],oficio_f
+R3,oficio_f[93],oficio_f
+R3,oficio_f[95],oficio_f
+R3,oficio_f[97],oficio_f
+R3,oficio_f[98],oficio_f
+R3,oficio_f[99],oficio_f
+R3,parentesco_f[Jefe/a],parentesco_f
+R3,parentesco_f[Nieto/a],parentesco_f
+R3,parentesco_f[Otro no pariente],parentesco_f
+R3,parentesco_f[Otro pariente],parentesco_f
+R3,parentesco_f[Pareja],parentesco_f
+R3,parentesco_f[Pensionista],parentesco_f
+R3,parentesco_f[Servicio domestico],parentesco_f
+R3,parentesco_f[Trabajador],parentesco_f
+R3,regSalud_f[Especial],regSalud_f
+R3,regSalud_f[No responde],regSalud_f
+R3,regSalud_f[Subsidiado],regSalud_f
+R3,quiere_mas_horas,quiere_mas_horas
+R3,horas_segundo_empleo,horas_segundo_empleo
+R3,cotiza_pension,cotiza_pension
+R3,microEmpresa,microEmpresa
+R3,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R3,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R3,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R3,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R3,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R3,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R3,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R3,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R3,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R3,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R3,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+R3,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+R3,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+R3,relab_f[Otro]:bs(age)_1,age|relab_f
+R3,relab_f[Otro]:bs(age)_2,age|relab_f
+R3,relab_f[Otro]:bs(age)_3,age|relab_f
+R3,relab_f[Otro]:bs(age)_4,age|relab_f
+R3,relab_f[Otro]:bs(age)_5,age|relab_f
+R3,relab_f[Otro]:bs(age)_6,age|relab_f
+R3,relab_f[Otro]:bs(age)_7,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+R3,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+R3,female:estrato_f[2],estrato_f|female
+R3,female:estrato_f[3],estrato_f|female
+R3,female:estrato_f[4],estrato_f|female
+R3,female:estrato_f[5],estrato_f|female
+R3,female:estrato_f[6],estrato_f|female
+R3,terciaria:oficio_grupo[Agropecuarios],oficio_grupo|terciaria
+R3,terciaria:oficio_grupo[Comerciantes y vendedores],oficio_grupo|terciaria
+R3,terciaria:oficio_grupo[Directivos],oficio_grupo|terciaria
+R3,terciaria:oficio_grupo[Operarios y transporte],oficio_grupo|terciaria
+R3,terciaria:oficio_grupo[Profesionales y tecnicos],oficio_grupo|terciaria
+R3,terciaria:oficio_grupo[Servicios],oficio_grupo|terciaria
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R3,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R3,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R3,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R3,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R3,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R3,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R3,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R3,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R3,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,(Intercepto),
+R4,female,female
+R4,bs(age)_1,age
+R4,bs(age)_2,age
+R4,bs(age)_3,age
+R4,bs(age)_4,age
+R4,bs(age)_5,age
+R4,bs(age)_6,age
+R4,bs(age)_7,age
+R4,educ_f[Primaria completa],educ_f
+R4,educ_f[Primaria incompleta],educ_f
+R4,educ_f[Secundaria completa],educ_f
+R4,educ_f[Secundaria incompleta],educ_f
+R4,educ_f[Terciaria],educ_f
+R4,bs(totalHoursWorked)_1,totalHoursWorked
+R4,bs(totalHoursWorked)_2,totalHoursWorked
+R4,bs(totalHoursWorked)_3,totalHoursWorked
+R4,bs(totalHoursWorked)_4,totalHoursWorked
+R4,bs(totalHoursWorked)_5,totalHoursWorked
+R4,bs(totalHoursWorked)_6,totalHoursWorked
+R4,bs(totalHoursWorked)_7,totalHoursWorked
+R4,relab_f[Empleado del gobierno],relab_f
+R4,relab_f[Empleado domestico],relab_f
+R4,relab_f[Obrero/empleado particular],relab_f
+R4,relab_f[Otro],relab_f
+R4,relab_f[Patron/empleador],relab_f
+R4,formal,formal
+R4,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R4,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R4,sizeFirm_f[Independiente],sizeFirm_f
+R4,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R4,oficio_grupo[Agropecuarios],oficio_grupo
+R4,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R4,oficio_grupo[Directivos],oficio_grupo
+R4,oficio_grupo[Operarios y transporte],oficio_grupo
+R4,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R4,oficio_grupo[Servicios],oficio_grupo
+R4,estrato_f[2],estrato_f
+R4,estrato_f[3],estrato_f
+R4,estrato_f[4],estrato_f
+R4,estrato_f[5],estrato_f
+R4,estrato_f[6],estrato_f
+R4,jefe_hogar,jefe_hogar
+R4,bs(antiguedad_anios)_1,antiguedad_anios
+R4,bs(antiguedad_anios)_2,antiguedad_anios
+R4,bs(antiguedad_anios)_3,antiguedad_anios
+R4,bs(antiguedad_anios)_4,antiguedad_anios
+R4,bs(antiguedad_anios)_5,antiguedad_anios
+R4,bs(antiguedad_anios)_6,antiguedad_anios
+R4,segundo_empleo,segundo_empleo
+R4,female:bs(age)_1,age|female
+R4,female:bs(age)_2,age|female
+R4,female:bs(age)_3,age|female
+R4,female:bs(age)_4,age|female
+R4,female:bs(age)_5,age|female
+R4,female:bs(age)_6,age|female
+R4,female:bs(age)_7,age|female
+R4,female:educ_f[Primaria completa],educ_f|female
+R4,female:educ_f[Primaria incompleta],educ_f|female
+R4,female:educ_f[Secundaria completa],educ_f|female
+R4,female:educ_f[Secundaria incompleta],educ_f|female
+R4,female:educ_f[Terciaria],educ_f|female
+R4,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R4,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R4,female:relab_f[Empleado del gobierno],female|relab_f
+R4,female:relab_f[Empleado domestico],female|relab_f
+R4,female:relab_f[Obrero/empleado particular],female|relab_f
+R4,female:relab_f[Otro],female|relab_f
+R4,female:relab_f[Patron/empleador],female|relab_f
+R4,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R4,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R4,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R4,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R4,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R4,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R4,oficio_f[02],oficio_f
+R4,oficio_f[03],oficio_f
+R4,oficio_f[05],oficio_f
+R4,oficio_f[06],oficio_f
+R4,oficio_f[07],oficio_f
+R4,oficio_f[08],oficio_f
+R4,oficio_f[09],oficio_f
+R4,oficio_f[11],oficio_f
+R4,oficio_f[12],oficio_f
+R4,oficio_f[13],oficio_f
+R4,oficio_f[15],oficio_f
+R4,oficio_f[16],oficio_f
+R4,oficio_f[17],oficio_f
+R4,oficio_f[18],oficio_f
+R4,oficio_f[19],oficio_f
+R4,oficio_f[21],oficio_f
+R4,oficio_f[30],oficio_f
+R4,oficio_f[32],oficio_f
+R4,oficio_f[33],oficio_f
+R4,oficio_f[34],oficio_f
+R4,oficio_f[36],oficio_f
+R4,oficio_f[37],oficio_f
+R4,oficio_f[38],oficio_f
+R4,oficio_f[39],oficio_f
+R4,oficio_f[40],oficio_f
+R4,oficio_f[41],oficio_f
+R4,oficio_f[42],oficio_f
+R4,oficio_f[44],oficio_f
+R4,oficio_f[45],oficio_f
+R4,oficio_f[50],oficio_f
+R4,oficio_f[51],oficio_f
+R4,oficio_f[53],oficio_f
+R4,oficio_f[54],oficio_f
+R4,oficio_f[55],oficio_f
+R4,oficio_f[56],oficio_f
+R4,oficio_f[57],oficio_f
+R4,oficio_f[58],oficio_f
+R4,oficio_f[59],oficio_f
+R4,oficio_f[62],oficio_f
+R4,oficio_f[70],oficio_f
+R4,oficio_f[75],oficio_f
+R4,oficio_f[77],oficio_f
+R4,oficio_f[79],oficio_f
+R4,oficio_f[80],oficio_f
+R4,oficio_f[81],oficio_f
+R4,oficio_f[83],oficio_f
+R4,oficio_f[84],oficio_f
+R4,oficio_f[85],oficio_f
+R4,oficio_f[87],oficio_f
+R4,oficio_f[90],oficio_f
+R4,oficio_f[92],oficio_f
+R4,oficio_f[93],oficio_f
+R4,oficio_f[95],oficio_f
+R4,oficio_f[97],oficio_f
+R4,oficio_f[98],oficio_f
+R4,oficio_f[99],oficio_f
+R4,parentesco_f[Jefe/a],parentesco_f
+R4,parentesco_f[Nieto/a],parentesco_f
+R4,parentesco_f[Otro no pariente],parentesco_f
+R4,parentesco_f[Otro pariente],parentesco_f
+R4,parentesco_f[Pareja],parentesco_f
+R4,parentesco_f[Pensionista],parentesco_f
+R4,parentesco_f[Servicio domestico],parentesco_f
+R4,parentesco_f[Trabajador],parentesco_f
+R4,regSalud_f[Especial],regSalud_f
+R4,regSalud_f[No responde],regSalud_f
+R4,regSalud_f[Subsidiado],regSalud_f
+R4,quiere_mas_horas,quiere_mas_horas
+R4,horas_segundo_empleo,horas_segundo_empleo
+R4,cotiza_pension,cotiza_pension
+R4,microEmpresa,microEmpresa
+R4,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R4,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R4,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R4,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R4,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R4,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R4,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R4,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R4,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R4,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R4,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+R4,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+R4,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+R4,relab_f[Otro]:bs(age)_1,age|relab_f
+R4,relab_f[Otro]:bs(age)_2,age|relab_f
+R4,relab_f[Otro]:bs(age)_3,age|relab_f
+R4,relab_f[Otro]:bs(age)_4,age|relab_f
+R4,relab_f[Otro]:bs(age)_5,age|relab_f
+R4,relab_f[Otro]:bs(age)_6,age|relab_f
+R4,relab_f[Otro]:bs(age)_7,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+R4,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+R4,female:estrato_f[2],estrato_f|female
+R4,female:estrato_f[3],estrato_f|female
+R4,female:estrato_f[4],estrato_f|female
+R4,female:estrato_f[5],estrato_f|female
+R4,female:estrato_f[6],estrato_f|female
+R4,terciaria:oficio_grupo[Agropecuarios],oficio_grupo|terciaria
+R4,terciaria:oficio_grupo[Comerciantes y vendedores],oficio_grupo|terciaria
+R4,terciaria:oficio_grupo[Directivos],oficio_grupo|terciaria
+R4,terciaria:oficio_grupo[Operarios y transporte],oficio_grupo|terciaria
+R4,terciaria:oficio_grupo[Profesionales y tecnicos],oficio_grupo|terciaria
+R4,terciaria:oficio_grupo[Servicios],oficio_grupo|terciaria
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R4,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R4,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R4,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R4,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R4,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R4,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R4,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R4,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R4,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R4,anios_educ,anios_educ
+R4,anios_educ^2,anios_educ
+R4,hoursWorkUsual,hoursWorkUsual
+R4,cuentaPropia,cuentaPropia
+R4,anios_educ:bs(age)_1,age|anios_educ
+R4,anios_educ:bs(age)_2,age|anios_educ
+R4,anios_educ:bs(age)_3,age|anios_educ
+R4,anios_educ:bs(age)_4,age|anios_educ
+R4,anios_educ:bs(age)_5,age|anios_educ
+R4,anios_educ:bs(age)_6,age|anios_educ
+R4,anios_educ:bs(age)_7,age|anios_educ
+R4,formal:bs(totalHoursWorked)_1,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_2,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_3,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_4,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_5,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_6,formal|totalHoursWorked
+R4,formal:bs(totalHoursWorked)_7,formal|totalHoursWorked
+R4,sizeFirm_f[2-5 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[2-5 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[6-10 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[6-10 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[Independiente]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[Independiente]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R4,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+M1w,(Intercepto),
+M1w,age,age
+M1w,age^2,age
+M2w,(Intercepto),
+M2w,age,age
+M2w,age^2,age
+M2w,totalHoursWorked,totalHoursWorked
+M2w,relab_f[Empleado del gobierno],relab_f
+M2w,relab_f[Empleado domestico],relab_f
+M2w,relab_f[Obrero/empleado particular],relab_f
+M2w,relab_f[Otro],relab_f
+M2w,relab_f[Patron/empleador],relab_f
+M3w,(Intercepto),
+M3w,female,female
+M4w,(Intercepto),
+M4w,female,female
+M4w,age,age
+M4w,age^2,age
+M4w,educ_f[Primaria completa],educ_f
+M4w,educ_f[Primaria incompleta],educ_f
+M4w,educ_f[Secundaria completa],educ_f
+M4w,educ_f[Secundaria incompleta],educ_f
+M4w,educ_f[Terciaria],educ_f
+M4w,totalHoursWorked,totalHoursWorked
+M4w,totalHoursWorked^2,totalHoursWorked
+M4w,relab_f[Empleado del gobierno],relab_f
+M4w,relab_f[Empleado domestico],relab_f
+M4w,relab_f[Obrero/empleado particular],relab_f
+M4w,relab_f[Otro],relab_f
+M4w,relab_f[Patron/empleador],relab_f
+M4w,formal,formal
+M4w,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M4w,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M4w,sizeFirm_f[Independiente],sizeFirm_f
+M4w,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M4w,oficio_grupo[Agropecuarios],oficio_grupo
+M4w,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M4w,oficio_grupo[Directivos],oficio_grupo
+M4w,oficio_grupo[Operarios y transporte],oficio_grupo
+M4w,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M4w,oficio_grupo[Servicios],oficio_grupo
+M4iw,(Intercepto),
+M4iw,female,female
+M4iw,age,age
+M4iw,age^2,age
+M4iw,educ_f[Primaria completa],educ_f
+M4iw,educ_f[Primaria incompleta],educ_f
+M4iw,educ_f[Secundaria completa],educ_f
+M4iw,educ_f[Secundaria incompleta],educ_f
+M4iw,educ_f[Terciaria],educ_f
+M4iw,totalHoursWorked,totalHoursWorked
+M4iw,totalHoursWorked^2,totalHoursWorked
+M4iw,relab_f[Empleado del gobierno],relab_f
+M4iw,relab_f[Empleado domestico],relab_f
+M4iw,relab_f[Obrero/empleado particular],relab_f
+M4iw,relab_f[Otro],relab_f
+M4iw,relab_f[Patron/empleador],relab_f
+M4iw,formal,formal
+M4iw,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M4iw,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M4iw,sizeFirm_f[Independiente],sizeFirm_f
+M4iw,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M4iw,oficio_grupo[Agropecuarios],oficio_grupo
+M4iw,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M4iw,oficio_grupo[Directivos],oficio_grupo
+M4iw,oficio_grupo[Operarios y transporte],oficio_grupo
+M4iw,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M4iw,oficio_grupo[Servicios],oficio_grupo
+M4iw,female:age,age|female
+M4iw,female:age^2,age|female
+R5,(Intercepto),
+R5,female,female
+R5,bs(age)_1,age
+R5,bs(age)_2,age
+R5,bs(age)_3,age
+R5,bs(age)_4,age
+R5,bs(age)_5,age
+R5,bs(age)_6,age
+R5,bs(age)_7,age
+R5,educ_f[Primaria completa],educ_f
+R5,educ_f[Primaria incompleta],educ_f
+R5,educ_f[Secundaria completa],educ_f
+R5,educ_f[Secundaria incompleta],educ_f
+R5,educ_f[Terciaria],educ_f
+R5,bs(totalHoursWorked)_1,totalHoursWorked
+R5,bs(totalHoursWorked)_2,totalHoursWorked
+R5,bs(totalHoursWorked)_3,totalHoursWorked
+R5,bs(totalHoursWorked)_4,totalHoursWorked
+R5,bs(totalHoursWorked)_5,totalHoursWorked
+R5,bs(totalHoursWorked)_6,totalHoursWorked
+R5,bs(totalHoursWorked)_7,totalHoursWorked
+R5,relab_f[Empleado del gobierno],relab_f
+R5,relab_f[Empleado domestico],relab_f
+R5,relab_f[Obrero/empleado particular],relab_f
+R5,relab_f[Otro],relab_f
+R5,relab_f[Patron/empleador],relab_f
+R5,formal,formal
+R5,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R5,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R5,sizeFirm_f[Independiente],sizeFirm_f
+R5,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R5,oficio_grupo[Agropecuarios],oficio_grupo
+R5,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R5,oficio_grupo[Directivos],oficio_grupo
+R5,oficio_grupo[Operarios y transporte],oficio_grupo
+R5,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R5,oficio_grupo[Servicios],oficio_grupo
+R5,estrato_f[2],estrato_f
+R5,estrato_f[3],estrato_f
+R5,estrato_f[4],estrato_f
+R5,estrato_f[5],estrato_f
+R5,estrato_f[6],estrato_f
+R5,bs(antiguedad_anios)_1,antiguedad_anios
+R5,bs(antiguedad_anios)_2,antiguedad_anios
+R5,bs(antiguedad_anios)_3,antiguedad_anios
+R5,bs(antiguedad_anios)_4,antiguedad_anios
+R5,bs(antiguedad_anios)_5,antiguedad_anios
+R5,bs(antiguedad_anios)_6,antiguedad_anios
+R5,female:bs(age)_1,age|female
+R5,female:bs(age)_2,age|female
+R5,female:bs(age)_3,age|female
+R5,female:bs(age)_4,age|female
+R5,female:bs(age)_5,age|female
+R5,female:bs(age)_6,age|female
+R5,female:bs(age)_7,age|female
+R5,female:educ_f[Primaria completa],educ_f|female
+R5,female:educ_f[Primaria incompleta],educ_f|female
+R5,female:educ_f[Secundaria completa],educ_f|female
+R5,female:educ_f[Secundaria incompleta],educ_f|female
+R5,female:educ_f[Terciaria],educ_f|female
+R5,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R5,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R5,female:relab_f[Empleado del gobierno],female|relab_f
+R5,female:relab_f[Empleado domestico],female|relab_f
+R5,female:relab_f[Obrero/empleado particular],female|relab_f
+R5,female:relab_f[Otro],female|relab_f
+R5,female:relab_f[Patron/empleador],female|relab_f
+R5,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R5,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R5,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R5,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R5,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R5,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R5,oficio_f[02],oficio_f
+R5,oficio_f[03],oficio_f
+R5,oficio_f[05],oficio_f
+R5,oficio_f[06],oficio_f
+R5,oficio_f[07],oficio_f
+R5,oficio_f[08],oficio_f
+R5,oficio_f[09],oficio_f
+R5,oficio_f[11],oficio_f
+R5,oficio_f[12],oficio_f
+R5,oficio_f[13],oficio_f
+R5,oficio_f[15],oficio_f
+R5,oficio_f[16],oficio_f
+R5,oficio_f[17],oficio_f
+R5,oficio_f[18],oficio_f
+R5,oficio_f[19],oficio_f
+R5,oficio_f[21],oficio_f
+R5,oficio_f[30],oficio_f
+R5,oficio_f[32],oficio_f
+R5,oficio_f[33],oficio_f
+R5,oficio_f[34],oficio_f
+R5,oficio_f[36],oficio_f
+R5,oficio_f[37],oficio_f
+R5,oficio_f[38],oficio_f
+R5,oficio_f[39],oficio_f
+R5,oficio_f[40],oficio_f
+R5,oficio_f[41],oficio_f
+R5,oficio_f[42],oficio_f
+R5,oficio_f[44],oficio_f
+R5,oficio_f[45],oficio_f
+R5,oficio_f[50],oficio_f
+R5,oficio_f[51],oficio_f
+R5,oficio_f[53],oficio_f
+R5,oficio_f[54],oficio_f
+R5,oficio_f[55],oficio_f
+R5,oficio_f[56],oficio_f
+R5,oficio_f[57],oficio_f
+R5,oficio_f[58],oficio_f
+R5,oficio_f[59],oficio_f
+R5,oficio_f[62],oficio_f
+R5,oficio_f[70],oficio_f
+R5,oficio_f[75],oficio_f
+R5,oficio_f[77],oficio_f
+R5,oficio_f[79],oficio_f
+R5,oficio_f[80],oficio_f
+R5,oficio_f[81],oficio_f
+R5,oficio_f[83],oficio_f
+R5,oficio_f[84],oficio_f
+R5,oficio_f[85],oficio_f
+R5,oficio_f[87],oficio_f
+R5,oficio_f[90],oficio_f
+R5,oficio_f[92],oficio_f
+R5,oficio_f[93],oficio_f
+R5,oficio_f[95],oficio_f
+R5,oficio_f[97],oficio_f
+R5,oficio_f[98],oficio_f
+R5,oficio_f[99],oficio_f
+R5,parentesco_f[Jefe/a],parentesco_f
+R5,parentesco_f[Nieto/a],parentesco_f
+R5,parentesco_f[Otro no pariente],parentesco_f
+R5,parentesco_f[Otro pariente],parentesco_f
+R5,parentesco_f[Pareja],parentesco_f
+R5,parentesco_f[Pensionista],parentesco_f
+R5,parentesco_f[Servicio domestico],parentesco_f
+R5,parentesco_f[Trabajador],parentesco_f
+R5,regSalud_f[Especial],regSalud_f
+R5,regSalud_f[No responde],regSalud_f
+R5,regSalud_f[Subsidiado],regSalud_f
+R5,quiere_mas_horas,quiere_mas_horas
+R5,cotiza_pension,cotiza_pension
+R5,microEmpresa,microEmpresa
+R5,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R5,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R5,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R5,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R5,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R5,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R5,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R5,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R5,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R5,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R5,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+R5,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+R5,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+R5,relab_f[Otro]:bs(age)_1,age|relab_f
+R5,relab_f[Otro]:bs(age)_2,age|relab_f
+R5,relab_f[Otro]:bs(age)_3,age|relab_f
+R5,relab_f[Otro]:bs(age)_4,age|relab_f
+R5,relab_f[Otro]:bs(age)_5,age|relab_f
+R5,relab_f[Otro]:bs(age)_6,age|relab_f
+R5,relab_f[Otro]:bs(age)_7,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+R5,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+R5,female:estrato_f[2],estrato_f|female
+R5,female:estrato_f[3],estrato_f|female
+R5,female:estrato_f[4],estrato_f|female
+R5,female:estrato_f[5],estrato_f|female
+R5,female:estrato_f[6],estrato_f|female
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R5,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R5,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R5,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R5,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R5,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R5,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R5,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R5,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R5,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R5,anios_educ,anios_educ
+R5,anios_educ^2,anios_educ
+R5,cuentaPropia,cuentaPropia
+R5,anios_educ:bs(age)_1,age|anios_educ
+R5,anios_educ:bs(age)_2,age|anios_educ
+R5,anios_educ:bs(age)_3,age|anios_educ
+R5,anios_educ:bs(age)_4,age|anios_educ
+R5,anios_educ:bs(age)_5,age|anios_educ
+R5,anios_educ:bs(age)_6,age|anios_educ
+R5,anios_educ:bs(age)_7,age|anios_educ
+R5,formal:bs(totalHoursWorked)_1,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_2,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_3,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_4,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_5,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_6,formal|totalHoursWorked
+R5,formal:bs(totalHoursWorked)_7,formal|totalHoursWorked
+R5,sizeFirm_f[2-5 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[2-5 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[6-10 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[6-10 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[Independiente]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[Independiente]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R5,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R6,(Intercepto),
+R6,female,female
+R6,bs(age)_1,age
+R6,bs(age)_2,age
+R6,bs(age)_3,age
+R6,bs(age)_4,age
+R6,bs(age)_5,age
+R6,bs(age)_6,age
+R6,bs(age)_7,age
+R6,educ_f[Primaria completa],educ_f
+R6,educ_f[Primaria incompleta],educ_f
+R6,educ_f[Secundaria completa],educ_f
+R6,educ_f[Secundaria incompleta],educ_f
+R6,educ_f[Terciaria],educ_f
+R6,bs(totalHoursWorked)_1,totalHoursWorked
+R6,bs(totalHoursWorked)_2,totalHoursWorked
+R6,bs(totalHoursWorked)_3,totalHoursWorked
+R6,bs(totalHoursWorked)_4,totalHoursWorked
+R6,bs(totalHoursWorked)_5,totalHoursWorked
+R6,bs(totalHoursWorked)_6,totalHoursWorked
+R6,bs(totalHoursWorked)_7,totalHoursWorked
+R6,relab_f[Empleado del gobierno],relab_f
+R6,relab_f[Empleado domestico],relab_f
+R6,relab_f[Obrero/empleado particular],relab_f
+R6,relab_f[Otro],relab_f
+R6,relab_f[Patron/empleador],relab_f
+R6,formal,formal
+R6,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R6,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R6,sizeFirm_f[Independiente],sizeFirm_f
+R6,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R6,oficio_grupo[Agropecuarios],oficio_grupo
+R6,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R6,oficio_grupo[Directivos],oficio_grupo
+R6,oficio_grupo[Operarios y transporte],oficio_grupo
+R6,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R6,oficio_grupo[Servicios],oficio_grupo
+R6,estrato_f[2],estrato_f
+R6,estrato_f[3],estrato_f
+R6,estrato_f[4],estrato_f
+R6,estrato_f[5],estrato_f
+R6,estrato_f[6],estrato_f
+R6,jefe_hogar,jefe_hogar
+R6,bs(antiguedad_anios)_1,antiguedad_anios
+R6,bs(antiguedad_anios)_2,antiguedad_anios
+R6,bs(antiguedad_anios)_3,antiguedad_anios
+R6,bs(antiguedad_anios)_4,antiguedad_anios
+R6,bs(antiguedad_anios)_5,antiguedad_anios
+R6,bs(antiguedad_anios)_6,antiguedad_anios
+R6,female:bs(age)_1,age|female
+R6,female:bs(age)_2,age|female
+R6,female:bs(age)_3,age|female
+R6,female:bs(age)_4,age|female
+R6,female:bs(age)_5,age|female
+R6,female:bs(age)_6,age|female
+R6,female:bs(age)_7,age|female
+R6,female:educ_f[Primaria completa],educ_f|female
+R6,female:educ_f[Primaria incompleta],educ_f|female
+R6,female:educ_f[Secundaria completa],educ_f|female
+R6,female:educ_f[Secundaria incompleta],educ_f|female
+R6,female:educ_f[Terciaria],educ_f|female
+R6,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R6,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R6,female:relab_f[Empleado del gobierno],female|relab_f
+R6,female:relab_f[Empleado domestico],female|relab_f
+R6,female:relab_f[Obrero/empleado particular],female|relab_f
+R6,female:relab_f[Otro],female|relab_f
+R6,female:relab_f[Patron/empleador],female|relab_f
+R6,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R6,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R6,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R6,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R6,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R6,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R6,oficio_f[02],oficio_f
+R6,oficio_f[03],oficio_f
+R6,oficio_f[05],oficio_f
+R6,oficio_f[06],oficio_f
+R6,oficio_f[07],oficio_f
+R6,oficio_f[08],oficio_f
+R6,oficio_f[09],oficio_f
+R6,oficio_f[11],oficio_f
+R6,oficio_f[12],oficio_f
+R6,oficio_f[13],oficio_f
+R6,oficio_f[15],oficio_f
+R6,oficio_f[16],oficio_f
+R6,oficio_f[17],oficio_f
+R6,oficio_f[18],oficio_f
+R6,oficio_f[19],oficio_f
+R6,oficio_f[21],oficio_f
+R6,oficio_f[30],oficio_f
+R6,oficio_f[32],oficio_f
+R6,oficio_f[33],oficio_f
+R6,oficio_f[34],oficio_f
+R6,oficio_f[36],oficio_f
+R6,oficio_f[37],oficio_f
+R6,oficio_f[38],oficio_f
+R6,oficio_f[39],oficio_f
+R6,oficio_f[40],oficio_f
+R6,oficio_f[41],oficio_f
+R6,oficio_f[42],oficio_f
+R6,oficio_f[44],oficio_f
+R6,oficio_f[45],oficio_f
+R6,oficio_f[50],oficio_f
+R6,oficio_f[51],oficio_f
+R6,oficio_f[53],oficio_f
+R6,oficio_f[54],oficio_f
+R6,oficio_f[55],oficio_f
+R6,oficio_f[56],oficio_f
+R6,oficio_f[57],oficio_f
+R6,oficio_f[58],oficio_f
+R6,oficio_f[59],oficio_f
+R6,oficio_f[62],oficio_f
+R6,oficio_f[70],oficio_f
+R6,oficio_f[75],oficio_f
+R6,oficio_f[77],oficio_f
+R6,oficio_f[79],oficio_f
+R6,oficio_f[80],oficio_f
+R6,oficio_f[81],oficio_f
+R6,oficio_f[83],oficio_f
+R6,oficio_f[84],oficio_f
+R6,oficio_f[85],oficio_f
+R6,oficio_f[87],oficio_f
+R6,oficio_f[90],oficio_f
+R6,oficio_f[92],oficio_f
+R6,oficio_f[93],oficio_f
+R6,oficio_f[95],oficio_f
+R6,oficio_f[97],oficio_f
+R6,oficio_f[98],oficio_f
+R6,oficio_f[99],oficio_f
+R6,parentesco_f[Jefe/a],parentesco_f
+R6,parentesco_f[Nieto/a],parentesco_f
+R6,parentesco_f[Otro no pariente],parentesco_f
+R6,parentesco_f[Otro pariente],parentesco_f
+R6,parentesco_f[Pareja],parentesco_f
+R6,parentesco_f[Pensionista],parentesco_f
+R6,parentesco_f[Servicio domestico],parentesco_f
+R6,parentesco_f[Trabajador],parentesco_f
+R6,regSalud_f[Especial],regSalud_f
+R6,regSalud_f[No responde],regSalud_f
+R6,regSalud_f[Subsidiado],regSalud_f
+R6,quiere_mas_horas,quiere_mas_horas
+R6,cotiza_pension,cotiza_pension
+R6,microEmpresa,microEmpresa
+R6,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R6,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R6,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R6,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R6,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R6,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R6,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R6,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R6,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R6,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R6,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+R6,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+R6,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+R6,relab_f[Otro]:bs(age)_1,age|relab_f
+R6,relab_f[Otro]:bs(age)_2,age|relab_f
+R6,relab_f[Otro]:bs(age)_3,age|relab_f
+R6,relab_f[Otro]:bs(age)_4,age|relab_f
+R6,relab_f[Otro]:bs(age)_5,age|relab_f
+R6,relab_f[Otro]:bs(age)_6,age|relab_f
+R6,relab_f[Otro]:bs(age)_7,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+R6,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+R6,female:estrato_f[2],estrato_f|female
+R6,female:estrato_f[3],estrato_f|female
+R6,female:estrato_f[4],estrato_f|female
+R6,female:estrato_f[5],estrato_f|female
+R6,female:estrato_f[6],estrato_f|female
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R6,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R6,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R6,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R6,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R6,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R6,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R6,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R6,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R6,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R6,anios_educ,anios_educ
+R6,anios_educ^2,anios_educ
+R6,cuentaPropia,cuentaPropia
+R6,anios_educ:bs(age)_1,age|anios_educ
+R6,anios_educ:bs(age)_2,age|anios_educ
+R6,anios_educ:bs(age)_3,age|anios_educ
+R6,anios_educ:bs(age)_4,age|anios_educ
+R6,anios_educ:bs(age)_5,age|anios_educ
+R6,anios_educ:bs(age)_6,age|anios_educ
+R6,anios_educ:bs(age)_7,age|anios_educ
+R6,formal:bs(totalHoursWorked)_1,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_2,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_3,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_4,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_5,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_6,formal|totalHoursWorked
+R6,formal:bs(totalHoursWorked)_7,formal|totalHoursWorked
+R6,sizeFirm_f[2-5 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[2-5 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[6-10 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[6-10 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[Independiente]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[Independiente]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R6,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R7,(Intercepto),
+R7,female,female
+R7,bs(age)_1,age
+R7,bs(age)_2,age
+R7,bs(age)_3,age
+R7,bs(age)_4,age
+R7,bs(age)_5,age
+R7,bs(age)_6,age
+R7,bs(age)_7,age
+R7,educ_f[Primaria completa],educ_f
+R7,educ_f[Primaria incompleta],educ_f
+R7,educ_f[Secundaria completa],educ_f
+R7,educ_f[Secundaria incompleta],educ_f
+R7,educ_f[Terciaria],educ_f
+R7,bs(totalHoursWorked)_1,totalHoursWorked
+R7,bs(totalHoursWorked)_2,totalHoursWorked
+R7,bs(totalHoursWorked)_3,totalHoursWorked
+R7,bs(totalHoursWorked)_4,totalHoursWorked
+R7,bs(totalHoursWorked)_5,totalHoursWorked
+R7,bs(totalHoursWorked)_6,totalHoursWorked
+R7,bs(totalHoursWorked)_7,totalHoursWorked
+R7,relab_f[Empleado del gobierno],relab_f
+R7,relab_f[Empleado domestico],relab_f
+R7,relab_f[Obrero/empleado particular],relab_f
+R7,relab_f[Otro],relab_f
+R7,relab_f[Patron/empleador],relab_f
+R7,formal,formal
+R7,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+R7,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+R7,sizeFirm_f[Independiente],sizeFirm_f
+R7,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+R7,oficio_grupo[Agropecuarios],oficio_grupo
+R7,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+R7,oficio_grupo[Directivos],oficio_grupo
+R7,oficio_grupo[Operarios y transporte],oficio_grupo
+R7,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+R7,oficio_grupo[Servicios],oficio_grupo
+R7,estrato_f[2],estrato_f
+R7,estrato_f[3],estrato_f
+R7,estrato_f[4],estrato_f
+R7,estrato_f[5],estrato_f
+R7,estrato_f[6],estrato_f
+R7,bs(antiguedad_anios)_1,antiguedad_anios
+R7,bs(antiguedad_anios)_2,antiguedad_anios
+R7,bs(antiguedad_anios)_3,antiguedad_anios
+R7,bs(antiguedad_anios)_4,antiguedad_anios
+R7,bs(antiguedad_anios)_5,antiguedad_anios
+R7,bs(antiguedad_anios)_6,antiguedad_anios
+R7,female:bs(age)_1,age|female
+R7,female:bs(age)_2,age|female
+R7,female:bs(age)_3,age|female
+R7,female:bs(age)_4,age|female
+R7,female:bs(age)_5,age|female
+R7,female:bs(age)_6,age|female
+R7,female:bs(age)_7,age|female
+R7,female:educ_f[Primaria completa],educ_f|female
+R7,female:educ_f[Primaria incompleta],educ_f|female
+R7,female:educ_f[Secundaria completa],educ_f|female
+R7,female:educ_f[Secundaria incompleta],educ_f|female
+R7,female:educ_f[Terciaria],educ_f|female
+R7,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+R7,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+R7,female:relab_f[Empleado del gobierno],female|relab_f
+R7,female:relab_f[Empleado domestico],female|relab_f
+R7,female:relab_f[Obrero/empleado particular],female|relab_f
+R7,female:relab_f[Otro],female|relab_f
+R7,female:relab_f[Patron/empleador],female|relab_f
+R7,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+R7,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+R7,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+R7,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+R7,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_1,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_2,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_3,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_4,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_5,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_6,age|educ_f
+R7,educ_f[Terciaria]:bs(age)_7,age|educ_f
+R7,oficio_f[02],oficio_f
+R7,oficio_f[03],oficio_f
+R7,oficio_f[05],oficio_f
+R7,oficio_f[06],oficio_f
+R7,oficio_f[07],oficio_f
+R7,oficio_f[08],oficio_f
+R7,oficio_f[09],oficio_f
+R7,oficio_f[11],oficio_f
+R7,oficio_f[12],oficio_f
+R7,oficio_f[13],oficio_f
+R7,oficio_f[15],oficio_f
+R7,oficio_f[16],oficio_f
+R7,oficio_f[17],oficio_f
+R7,oficio_f[18],oficio_f
+R7,oficio_f[19],oficio_f
+R7,oficio_f[21],oficio_f
+R7,oficio_f[30],oficio_f
+R7,oficio_f[32],oficio_f
+R7,oficio_f[33],oficio_f
+R7,oficio_f[34],oficio_f
+R7,oficio_f[36],oficio_f
+R7,oficio_f[37],oficio_f
+R7,oficio_f[38],oficio_f
+R7,oficio_f[39],oficio_f
+R7,oficio_f[40],oficio_f
+R7,oficio_f[41],oficio_f
+R7,oficio_f[42],oficio_f
+R7,oficio_f[44],oficio_f
+R7,oficio_f[45],oficio_f
+R7,oficio_f[50],oficio_f
+R7,oficio_f[51],oficio_f
+R7,oficio_f[53],oficio_f
+R7,oficio_f[54],oficio_f
+R7,oficio_f[55],oficio_f
+R7,oficio_f[56],oficio_f
+R7,oficio_f[57],oficio_f
+R7,oficio_f[58],oficio_f
+R7,oficio_f[59],oficio_f
+R7,oficio_f[62],oficio_f
+R7,oficio_f[70],oficio_f
+R7,oficio_f[75],oficio_f
+R7,oficio_f[77],oficio_f
+R7,oficio_f[79],oficio_f
+R7,oficio_f[80],oficio_f
+R7,oficio_f[81],oficio_f
+R7,oficio_f[83],oficio_f
+R7,oficio_f[84],oficio_f
+R7,oficio_f[85],oficio_f
+R7,oficio_f[87],oficio_f
+R7,oficio_f[90],oficio_f
+R7,oficio_f[92],oficio_f
+R7,oficio_f[93],oficio_f
+R7,oficio_f[95],oficio_f
+R7,oficio_f[97],oficio_f
+R7,oficio_f[98],oficio_f
+R7,oficio_f[99],oficio_f
+R7,parentesco_f[Jefe/a],parentesco_f
+R7,parentesco_f[Nieto/a],parentesco_f
+R7,parentesco_f[Otro no pariente],parentesco_f
+R7,parentesco_f[Otro pariente],parentesco_f
+R7,parentesco_f[Pareja],parentesco_f
+R7,parentesco_f[Pensionista],parentesco_f
+R7,parentesco_f[Servicio domestico],parentesco_f
+R7,parentesco_f[Trabajador],parentesco_f
+R7,regSalud_f[Especial],regSalud_f
+R7,regSalud_f[No responde],regSalud_f
+R7,regSalud_f[Subsidiado],regSalud_f
+R7,quiere_mas_horas,quiere_mas_horas
+R7,cotiza_pension,cotiza_pension
+R7,microEmpresa,microEmpresa
+R7,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R7,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R7,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R7,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R7,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R7,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R7,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R7,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R7,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+R7,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+R7,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+R7,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+R7,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+R7,relab_f[Otro]:bs(age)_1,age|relab_f
+R7,relab_f[Otro]:bs(age)_2,age|relab_f
+R7,relab_f[Otro]:bs(age)_3,age|relab_f
+R7,relab_f[Otro]:bs(age)_4,age|relab_f
+R7,relab_f[Otro]:bs(age)_5,age|relab_f
+R7,relab_f[Otro]:bs(age)_6,age|relab_f
+R7,relab_f[Otro]:bs(age)_7,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+R7,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+R7,female:estrato_f[2],estrato_f|female
+R7,female:estrato_f[3],estrato_f|female
+R7,female:estrato_f[4],estrato_f|female
+R7,female:estrato_f[5],estrato_f|female
+R7,female:estrato_f[6],estrato_f|female
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R7,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R7,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R7,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+R7,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R7,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R7,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R7,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R7,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+R7,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+R7,anios_educ,anios_educ
+R7,anios_educ^2,anios_educ
+R7,cuentaPropia,cuentaPropia
+R7,anios_educ:bs(age)_1,age|anios_educ
+R7,anios_educ:bs(age)_2,age|anios_educ
+R7,anios_educ:bs(age)_3,age|anios_educ
+R7,anios_educ:bs(age)_4,age|anios_educ
+R7,anios_educ:bs(age)_5,age|anios_educ
+R7,anios_educ:bs(age)_6,age|anios_educ
+R7,anios_educ:bs(age)_7,age|anios_educ
+R7,formal:bs(totalHoursWorked)_1,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_2,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_3,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_4,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_5,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_6,formal|totalHoursWorked
+R7,formal:bs(totalHoursWorked)_7,formal|totalHoursWorked
+R7,sizeFirm_f[2-5 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[2-5 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[6-10 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[6-10 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[Independiente]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[Independiente]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+R7,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+M10,(Intercepto),
+M10,female,female
+M10,bs(age)_1,age
+M10,bs(age)_2,age
+M10,bs(age)_3,age
+M10,bs(age)_4,age
+M10,bs(age)_5,age
+M10,bs(age)_6,age
+M10,bs(age)_7,age
+M10,educ_f[Primaria completa],educ_f
+M10,educ_f[Primaria incompleta],educ_f
+M10,educ_f[Secundaria completa],educ_f
+M10,educ_f[Secundaria incompleta],educ_f
+M10,educ_f[Terciaria],educ_f
+M10,bs(totalHoursWorked)_1,totalHoursWorked
+M10,bs(totalHoursWorked)_2,totalHoursWorked
+M10,bs(totalHoursWorked)_3,totalHoursWorked
+M10,bs(totalHoursWorked)_4,totalHoursWorked
+M10,bs(totalHoursWorked)_5,totalHoursWorked
+M10,bs(totalHoursWorked)_6,totalHoursWorked
+M10,bs(totalHoursWorked)_7,totalHoursWorked
+M10,relab_f[Empleado del gobierno],relab_f
+M10,relab_f[Empleado domestico],relab_f
+M10,relab_f[Obrero/empleado particular],relab_f
+M10,relab_f[Otro],relab_f
+M10,relab_f[Patron/empleador],relab_f
+M10,formal,formal
+M10,sizeFirm_f[2-5 trabajadores],sizeFirm_f
+M10,sizeFirm_f[6-10 trabajadores],sizeFirm_f
+M10,sizeFirm_f[Independiente],sizeFirm_f
+M10,sizeFirm_f[Mas de 50 trabajadores],sizeFirm_f
+M10,oficio_grupo[Agropecuarios],oficio_grupo
+M10,oficio_grupo[Comerciantes y vendedores],oficio_grupo
+M10,oficio_grupo[Directivos],oficio_grupo
+M10,oficio_grupo[Operarios y transporte],oficio_grupo
+M10,oficio_grupo[Profesionales y tecnicos],oficio_grupo
+M10,oficio_grupo[Servicios],oficio_grupo
+M10,estrato_f[2],estrato_f
+M10,estrato_f[3],estrato_f
+M10,estrato_f[4],estrato_f
+M10,estrato_f[5],estrato_f
+M10,estrato_f[6],estrato_f
+M10,bs(antiguedad_anios)_1,antiguedad_anios
+M10,bs(antiguedad_anios)_2,antiguedad_anios
+M10,bs(antiguedad_anios)_3,antiguedad_anios
+M10,bs(antiguedad_anios)_4,antiguedad_anios
+M10,bs(antiguedad_anios)_5,antiguedad_anios
+M10,bs(antiguedad_anios)_6,antiguedad_anios
+M10,female:bs(age)_1,age|female
+M10,female:bs(age)_2,age|female
+M10,female:bs(age)_3,age|female
+M10,female:bs(age)_4,age|female
+M10,female:bs(age)_5,age|female
+M10,female:bs(age)_6,age|female
+M10,female:bs(age)_7,age|female
+M10,female:educ_f[Primaria completa],educ_f|female
+M10,female:educ_f[Primaria incompleta],educ_f|female
+M10,female:educ_f[Secundaria completa],educ_f|female
+M10,female:educ_f[Secundaria incompleta],educ_f|female
+M10,female:educ_f[Terciaria],educ_f|female
+M10,female:bs(totalHoursWorked)_1,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_2,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_3,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_4,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_5,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_6,female|totalHoursWorked
+M10,female:bs(totalHoursWorked)_7,female|totalHoursWorked
+M10,female:relab_f[Empleado del gobierno],female|relab_f
+M10,female:relab_f[Empleado domestico],female|relab_f
+M10,female:relab_f[Obrero/empleado particular],female|relab_f
+M10,female:relab_f[Otro],female|relab_f
+M10,female:relab_f[Patron/empleador],female|relab_f
+M10,educ_f[Primaria completa]:bs(age)_1,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_2,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_3,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_4,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_5,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_6,age|educ_f
+M10,educ_f[Primaria completa]:bs(age)_7,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_1,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_2,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_3,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_4,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_5,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_6,age|educ_f
+M10,educ_f[Primaria incompleta]:bs(age)_7,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_1,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_2,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_3,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_4,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_5,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_6,age|educ_f
+M10,educ_f[Secundaria completa]:bs(age)_7,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_1,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_2,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_3,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_4,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_5,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_6,age|educ_f
+M10,educ_f[Secundaria incompleta]:bs(age)_7,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_1,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_2,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_3,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_4,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_5,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_6,age|educ_f
+M10,educ_f[Terciaria]:bs(age)_7,age|educ_f
+M10,oficio_f[02],oficio_f
+M10,oficio_f[03],oficio_f
+M10,oficio_f[05],oficio_f
+M10,oficio_f[06],oficio_f
+M10,oficio_f[07],oficio_f
+M10,oficio_f[08],oficio_f
+M10,oficio_f[09],oficio_f
+M10,oficio_f[11],oficio_f
+M10,oficio_f[12],oficio_f
+M10,oficio_f[13],oficio_f
+M10,oficio_f[15],oficio_f
+M10,oficio_f[16],oficio_f
+M10,oficio_f[17],oficio_f
+M10,oficio_f[18],oficio_f
+M10,oficio_f[19],oficio_f
+M10,oficio_f[21],oficio_f
+M10,oficio_f[30],oficio_f
+M10,oficio_f[32],oficio_f
+M10,oficio_f[33],oficio_f
+M10,oficio_f[34],oficio_f
+M10,oficio_f[36],oficio_f
+M10,oficio_f[37],oficio_f
+M10,oficio_f[38],oficio_f
+M10,oficio_f[39],oficio_f
+M10,oficio_f[40],oficio_f
+M10,oficio_f[41],oficio_f
+M10,oficio_f[42],oficio_f
+M10,oficio_f[44],oficio_f
+M10,oficio_f[45],oficio_f
+M10,oficio_f[50],oficio_f
+M10,oficio_f[51],oficio_f
+M10,oficio_f[53],oficio_f
+M10,oficio_f[54],oficio_f
+M10,oficio_f[55],oficio_f
+M10,oficio_f[56],oficio_f
+M10,oficio_f[57],oficio_f
+M10,oficio_f[58],oficio_f
+M10,oficio_f[59],oficio_f
+M10,oficio_f[62],oficio_f
+M10,oficio_f[70],oficio_f
+M10,oficio_f[75],oficio_f
+M10,oficio_f[77],oficio_f
+M10,oficio_f[79],oficio_f
+M10,oficio_f[80],oficio_f
+M10,oficio_f[81],oficio_f
+M10,oficio_f[83],oficio_f
+M10,oficio_f[84],oficio_f
+M10,oficio_f[85],oficio_f
+M10,oficio_f[87],oficio_f
+M10,oficio_f[90],oficio_f
+M10,oficio_f[92],oficio_f
+M10,oficio_f[93],oficio_f
+M10,oficio_f[95],oficio_f
+M10,oficio_f[97],oficio_f
+M10,oficio_f[98],oficio_f
+M10,oficio_f[99],oficio_f
+M10,parentesco_f[Jefe/a],parentesco_f
+M10,parentesco_f[Nieto/a],parentesco_f
+M10,parentesco_f[Otro no pariente],parentesco_f
+M10,parentesco_f[Otro pariente],parentesco_f
+M10,parentesco_f[Pareja],parentesco_f
+M10,parentesco_f[Pensionista],parentesco_f
+M10,parentesco_f[Servicio domestico],parentesco_f
+M10,parentesco_f[Trabajador],parentesco_f
+M10,regSalud_f[Especial],regSalud_f
+M10,regSalud_f[No responde],regSalud_f
+M10,regSalud_f[Subsidiado],regSalud_f
+M10,quiere_mas_horas,quiere_mas_horas
+M10,cotiza_pension,cotiza_pension
+M10,microEmpresa,microEmpresa
+M10,estrato_f[2]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+M10,estrato_f[2]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+M10,estrato_f[2]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+M10,estrato_f[2]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+M10,estrato_f[2]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+M10,estrato_f[2]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+M10,estrato_f[3]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+M10,estrato_f[4]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+M10,estrato_f[5]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Agropecuarios],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Comerciantes y vendedores],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Directivos],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Operarios y transporte],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Profesionales y tecnicos],estrato_f|oficio_grupo
+M10,estrato_f[6]:oficio_grupo[Servicios],estrato_f|oficio_grupo
+M10,relab_f[Empleado del gobierno]:bs(age)_1,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_2,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_3,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_4,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_5,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_6,age|relab_f
+M10,relab_f[Empleado del gobierno]:bs(age)_7,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_1,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_2,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_3,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_4,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_5,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_6,age|relab_f
+M10,relab_f[Empleado domestico]:bs(age)_7,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_1,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_2,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_3,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_4,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_5,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_6,age|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(age)_7,age|relab_f
+M10,relab_f[Otro]:bs(age)_1,age|relab_f
+M10,relab_f[Otro]:bs(age)_2,age|relab_f
+M10,relab_f[Otro]:bs(age)_3,age|relab_f
+M10,relab_f[Otro]:bs(age)_4,age|relab_f
+M10,relab_f[Otro]:bs(age)_5,age|relab_f
+M10,relab_f[Otro]:bs(age)_6,age|relab_f
+M10,relab_f[Otro]:bs(age)_7,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_1,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_2,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_3,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_4,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_5,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_6,age|relab_f
+M10,relab_f[Patron/empleador]:bs(age)_7,age|relab_f
+M10,female:estrato_f[2],estrato_f|female
+M10,female:estrato_f[3],estrato_f|female
+M10,female:estrato_f[4],estrato_f|female
+M10,female:estrato_f[5],estrato_f|female
+M10,female:estrato_f[6],estrato_f|female
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+M10,relab_f[Empleado domestico]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+M10,relab_f[Obrero/empleado particular]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+M10,relab_f[Otro]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_1,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_2,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_3,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_4,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_5,antiguedad_anios|relab_f
+M10,relab_f[Patron/empleador]:bs(antiguedad_anios)_6,antiguedad_anios|relab_f
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+M10,relab_f[Empleado del gobierno]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+M10,relab_f[Empleado domestico]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+M10,relab_f[Obrero/empleado particular]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+M10,relab_f[Otro]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_1,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_2,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_3,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_4,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_5,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_6,relab_f|totalHoursWorked
+M10,relab_f[Patron/empleador]:bs(totalHoursWorked)_7,relab_f|totalHoursWorked
+M10,anios_educ,anios_educ
+M10,anios_educ^2,anios_educ
+M10,cuentaPropia,cuentaPropia
+M10,anios_educ:bs(age)_1,age|anios_educ
+M10,anios_educ:bs(age)_2,age|anios_educ
+M10,anios_educ:bs(age)_3,age|anios_educ
+M10,anios_educ:bs(age)_4,age|anios_educ
+M10,anios_educ:bs(age)_5,age|anios_educ
+M10,anios_educ:bs(age)_6,age|anios_educ
+M10,anios_educ:bs(age)_7,age|anios_educ
+M10,formal:bs(totalHoursWorked)_1,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_2,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_3,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_4,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_5,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_6,formal|totalHoursWorked
+M10,formal:bs(totalHoursWorked)_7,formal|totalHoursWorked
+M10,sizeFirm_f[2-5 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[2-5 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[6-10 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[6-10 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[Independiente]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[Independiente]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios,antiguedad_anios|sizeFirm_f
+M10,sizeFirm_f[Mas de 50 trabajadores]:antiguedad_anios^2,antiguedad_anios|sizeFirm_f

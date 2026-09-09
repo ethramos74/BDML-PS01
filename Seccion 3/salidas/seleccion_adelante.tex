@@ -1,0 +1,25 @@
+\begin{tabular}{rllrr}
+\toprule
+paso & movimiento & grupos & n\_columnas & RMSE\_LOOCV \\
+\midrule
+0 & inicio &  & 1 & 0.8882 \\
+1 & añadir oficio\_f & oficio\_f & 57 & 0.7365 \\
+2 & añadir totalHoursWorked & oficio\_f|totalHoursWorked & 64 & 0.6411 \\
+3 & añadir anios\_educ & anios\_educ|oficio\_f|totalHoursWorked & 66 & 0.5985 \\
+4 & añadir formal & anios\_educ|formal|oficio\_f|totalHoursWorked & 74 & 0.5750 \\
+5 & añadir estrato\_f & anios\_educ|estrato\_f|formal|oficio\_f|totalHoursWorked & 79 & 0.5530 \\
+6 & añadir relab\_f & anios\_educ|estrato\_f|formal|oficio\_f|relab\_f|totalHoursWorked & 119 & 0.5427 \\
+7 & añadir age & age|anios\_educ|estrato\_f|formal|oficio\_f|relab\_f|totalHoursWorked & 168 & 0.5334 \\
+8 & añadir sizeFirm\_f & age|anios\_educ|estrato\_f|formal|oficio\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 172 & 0.5245 \\
+9 & añadir antiguedad\_anios & age|anios\_educ|antiguedad\_anios|estrato\_f|formal|oficio\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 216 & 0.5171 \\
+10 & añadir female & age|anios\_educ|antiguedad\_anios|estrato\_f|female|formal|oficio\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 241 & 0.5114 \\
+11 & añadir parentesco\_f & age|anios\_educ|antiguedad\_anios|estrato\_f|female|formal|oficio\_f|parentesco\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 249 & 0.5092 \\
+12 & añadir quiere\_mas\_horas & age|anios\_educ|antiguedad\_anios|estrato\_f|female|formal|oficio\_f|parentesco\_f|quiere\_mas\_horas|relab\_f|sizeFirm\_f|totalHoursWorked & 250 & 0.5079 \\
+13 & añadir educ\_f & age|anios\_educ|antiguedad\_anios|educ\_f|estrato\_f|female|formal|oficio\_f|parentesco\_f|quiere\_mas\_horas|relab\_f|sizeFirm\_f|totalHoursWorked & 295 & 0.5071 \\
+14 & añadir oficio\_grupo & age|anios\_educ|antiguedad\_anios|educ\_f|estrato\_f|female|formal|oficio\_f|oficio\_grupo|parentesco\_f|quiere\_mas\_horas|relab\_f|sizeFirm\_f|totalHoursWorked & 331 & 0.5065 \\
+15 & añadir cotiza\_pension & age|anios\_educ|antiguedad\_anios|cotiza\_pension|educ\_f|estrato\_f|female|formal|oficio\_f|oficio\_grupo|parentesco\_f|quiere\_mas\_horas|relab\_f|sizeFirm\_f|totalHoursWorked & 332 & 0.5060 \\
+16 & añadir regSalud\_f & age|anios\_educ|antiguedad\_anios|cotiza\_pension|educ\_f|estrato\_f|female|formal|oficio\_f|oficio\_grupo|parentesco\_f|quiere\_mas\_horas|regSalud\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 335 & 0.5054 \\
+17 & añadir microEmpresa & age|anios\_educ|antiguedad\_anios|cotiza\_pension|educ\_f|estrato\_f|female|formal|microEmpresa|oficio\_f|oficio\_grupo|parentesco\_f|quiere\_mas\_horas|regSalud\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 336 & 0.5054 \\
+18 & añadir cuentaPropia & age|anios\_educ|antiguedad\_anios|cotiza\_pension|cuentaPropia|educ\_f|estrato\_f|female|formal|microEmpresa|oficio\_f|oficio\_grupo|parentesco\_f|quiere\_mas\_horas|regSalud\_f|relab\_f|sizeFirm\_f|totalHoursWorked & 337 & 0.5054 \\
+\bottomrule
+\end{tabular}

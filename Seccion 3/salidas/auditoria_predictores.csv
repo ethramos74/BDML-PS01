@@ -1,0 +1,209 @@
+variable,tipo,no_nulos_entrenamiento,porcentaje_no_nulos,decision,motivo
+fila_en_bloque,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+directorio,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+secuencia_p,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+orden,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+clase,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+dominio,object,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+mes,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+estrato1,int64,10263,100.0,Representada,Se usa estrato_f
+sex,int64,10263,100.0,Representada,Se usa female
+age,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+p6050,int64,10263,100.0,Representada,Se usa parentesco_f y jefe_hogar
+p6090,float64,10263,100.0,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p6100,float64,9385,91.44499658969112,Representada,Se usa regSalud_f
+p6210,float64,10263,100.0,Representada,Se usa educ_f
+p6210s1,float64,10263,100.0,Representada,Se usa anios_educ
+p6240,float64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+oficio,float64,10263,100.0,Representada,Se usa oficio_f
+p6426,float64,10263,100.0,Representada,Se usa antiguedad_anios
+relab,float64,10263,100.0,Representada,Se usa relab_f
+p6500,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6510,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6510s1,float64,6931,67.53385949527429,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6510s2,float64,580,5.651368995420443,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6545,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6545s1,float64,6930,67.52411575562701,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6545s2,float64,63,0.6138555977784274,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6580,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6580s1,float64,6933,67.55334697456884,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6580s2,float64,213,2.0754165448699213,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s1a1,float64,6931,67.53385949527429,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s1a2,float64,288,2.8061970184156677,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s2,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s2a1,float64,6914,67.36821592127058,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s2a2,float64,3696,36.01286173633441,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s3,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s3a1,float64,6929,67.51437201597973,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s3a2,float64,1526,14.868946701744129,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s4,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s4a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6585s4a2,float64,25,0.24359349118191562,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6590,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6590s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6600,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6600s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6610,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6610s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6620,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6620s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s1a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s2,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s2a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s3,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s3a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s4,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s4a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s6,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6630s6a1,float64,6935,67.5728344538634,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6750,float64,3328,32.42716554613661,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p6760,float64,3328,32.42716554613661,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p550,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+hoursWorkUsual,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+p6870,float64,10263,100.0,Representada,Se usa sizeFirm_f
+p6920,float64,10263,100.0,Representada,Se usa cotiza_pension
+p7040,float64,10263,100.0,Representada,Se usa segundo_empleo
+hoursWorkActualSecondJob,float64,335,3.2641527818376694,Representada,Se usa horas_segundo_empleo
+p7050,float64,359,3.498002533372308,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7070,float64,10248,99.85384390529084,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7090,float64,10263,100.0,Representada,Se usa quiere_mas_horas
+p7110,float64,933,9.090909090909092,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7120,float64,933,9.090909090909092,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7140s1,float64,2102,20.481340738575465,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7140s2,float64,2102,20.481340738575465,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7150,float64,2102,20.481340738575465,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7160,float64,2102,20.481340738575465,No incorporada,Pregunta adicional o con saltos de cuestionario; fuera del conjunto común de características laborales codificadas; no se imputa sin modelo de medición
+p7310,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7350,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7422,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7422s1,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7472,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7472s1,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+p7495,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s1,float64,908,8.847315599727175,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s1a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s2,float64,908,8.847315599727175,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s2a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s3,float64,908,8.847315599727175,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7500s3a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7505,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s1,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s1a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s2,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s2a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s3,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s3a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s5,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s5a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s6,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s6a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s7,float64,3938,38.37084673097535,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+p7510s7a1,float64,10263,100.0,Excluir,Montos o preguntas del reporte de remuneraciones/otros ingresos; se evita usar información tributaria cercana al resultado
+pet,float64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+ina,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+impa,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+isa,float64,10248,99.85384390529084,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+ie,float64,6935,67.5728344538634,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+imdi,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+iof1,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof2,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof3h,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof3i,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof6,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+cclasnr2,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr3,float64,33,0.3215434083601286,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr4,float64,173,1.685666958978856,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr5,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr6,float64,172,1.6759232193315796,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr7,float64,15,0.14615609470914936,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr8,float64,67,0.6528305563675338,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+cclasnr11,float64,29,0.28256844977102213,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+impaes,float64,12,0.1169248757673195,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+isaes,float64,33,0.3215434083601286,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iees,float64,174,1.6954106986261326,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+imdies,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+iof1es,float64,172,1.6759232193315796,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof2es,float64,16,0.155899834356426,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof3hes,float64,65,0.6333430770729807,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof3ies,float64,3,0.029231218941829874,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+iof6es,float64,29,0.28256844977102213,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+ingtotob,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+ingtotes,float64,487,4.745201208223716,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+ingtot,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+fex_c,float64,10263,100.0,Evaluación/diseño,"Factor de expansión; fex_c se utiliza en ajuste de referencia y RMSE ponderado, no como predictor"
+depto,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+fex_dpto,float64,10263,100.0,Evaluación/diseño,"Factor de expansión; fex_c se utiliza en ajuste de referencia y RMSE ponderado, no como predictor"
+fweight,int64,10263,100.0,Evaluación/diseño,"Factor de expansión; fex_c se utiliza en ajuste de referencia y RMSE ponderado, no como predictor"
+maxEducLevel,float64,10263,100.0,Representada,Se usa educ_f y anios_educ
+college,int64,10263,100.0,Representada,Se usa terciaria (corrige codificación)
+regSalud,float64,9378,91.37679041216019,Representada,Se usa regSalud_f
+cotPension,float64,10263,100.0,Representada,Se usa cotiza_pension
+wap,int64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+ocu,int64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+dsi,int64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+pea,int64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+inac,int64,10263,100.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+totalHoursWorked,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+formal,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+informal,float64,10263,100.0,Representada,Se usa formal
+cuentaPropia,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+microEmpresa,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+sizeFirm,float64,10263,100.0,Representada,Se usa sizeFirm_f
+y_salary_m,float64,6935,67.5728344538634,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_salary_m_hu,float64,6935,67.5728344538634,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_ingLab_m,float64,6935,67.5728344538634,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_horasExtras_m,float64,580,5.651368995420443,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_especie_m,float64,888,8.652440806781643,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_vivienda_m,float64,63,0.6138555977784274,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_otros_m,float64,89,0.8671928286076196,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_auxilioAliment_m,float64,288,2.8061970184156677,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_auxilioTransp_m,float64,3696,36.01286173633441,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_subFamiliar_m,float64,1526,14.868946701744129,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_subEducativo_m,float64,25,0.24359349118191562,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_primas_m,float64,63,0.6138555977784274,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_bonificaciones_m,float64,213,2.0754165448699213,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_primaServicios_m,float64,4706,45.8540387800838,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_primaNavidad_m,float64,407,3.965702036441586,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_primaVacaciones_m,float64,393,3.8292896813797133,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_viaticos_m,float64,248,2.416447432524603,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_accidentes_m,float64,23,0.22410601188736237,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_salarySec_m,float64,282,2.747734580532008,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_ingLab_m_ha,float64,6935,67.5728344538634,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_gananciaNeta_m,float64,3328,32.42716554613661,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_gananciaNetaAgro_m,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+y_gananciaIndep_m,float64,3328,32.42716554613661,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_gananciaIndep_m_hu,float64,3328,32.42716554613661,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_total_m,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+y_total_m_ha,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+chunk,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+url_origen,object,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+muestra_ps3,object,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+id_persona,object,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+entrenamiento,bool,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+mes_f,int64,10263,100.0,Excluir,"Identificador, localización constante o partición temporal; no aprendizaje por llave o mes"
+log_y,float64,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+dane_faltante,float64,0,0.0,Excluir,Define población elegible o no tiene variación útil en entrenamiento
+female,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+jefe_hogar,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+parentesco_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+estrato_f,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+educ_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+terciaria,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+anios_educ,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+relab_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+oficio_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+oficio_grupo,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+sizeFirm_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+cotiza_pension,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+regSalud_f,object,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+antiguedad_anios,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+horas_segundo_empleo,float64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+segundo_empleo,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+quiere_mas_horas,int64,10263,100.0,Candidata,Disponible en el conjunto de especificaciones; ver columnas_modelos.csv
+alerta_ingreso_bajo,bool,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+alerta_ingreso_alto,bool,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+alerta_horas_altas,bool,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+alerta_dane_extremo,bool,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"
+alerta_extremo,bool,10263,100.0,Excluir,"Resultado, ingreso relacionado, imputación o alerta dependiente del ingreso; riesgo de fuga"

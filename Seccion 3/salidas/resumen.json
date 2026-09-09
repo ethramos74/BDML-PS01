@@ -1,0 +1,12 @@
+{
+  "ganador": "R6",
+  "especificacion": "Ridge, selección atras",
+  "numero_modelos": 24,
+  "n_entrenamiento": 10263,
+  "n_validacion": 4500,
+  "rmse_validacion": 0.5384437939188244,
+  "rmse_loo": 0.505400431418919,
+  "rmse_validacion_fex_c": 0.5341913679289669,
+  "variable_principal": "totalHoursWorked",
+  "rmse_cv5_grupos_fijos": 0.5500736723589319
+}

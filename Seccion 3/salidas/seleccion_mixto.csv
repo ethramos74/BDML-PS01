@@ -1,0 +1,2 @@
+paso,movimiento,grupos,n_columnas,RMSE_LOOCV
+0,inicio,age|anios_educ|antiguedad_anios|cotiza_pension|cuentaPropia|educ_f|estrato_f|female|formal|microEmpresa|oficio_f|oficio_grupo|parentesco_f|quiere_mas_horas|regSalud_f|relab_f|sizeFirm_f|totalHoursWorked,337,0.5054004581701897
