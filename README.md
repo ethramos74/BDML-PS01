@@ -1,8 +1,8 @@
 # Problem Set 1: Predicting Income
 
-Big Data and Machine Learning para Economía Aplicada, MECA 4107, 2026-20. Equipo 02.
+Big Data and Machine Learning para Economía Aplicada, MECA 4107, 2026-20. Equipo 01.
 
-[Repositorio](https://github.com/SebastianVela/BigData_Taller_1) · [Enunciado](Problem_Set_1.pdf)
+[Repositorio](https://github.com/ethramos74/BDML-PS01) · [Enunciado](Problem_Set_1.pdf)
 
 ## Desarrollo actual
 
@@ -57,8 +57,6 @@ No se ponderan los conteos de validación, tipos ni porcentajes de no nulos: est
 - [Resumen de muestra de análisis](datos/auditoria/summary_muestra_analisis.csv).
 - [Diccionario de variables](datos/auditoria/diccionario_muestra.csv).
 
-La descarga reutiliza caché y consulta `robots.txt` antes de nuevas peticiones; respeta una pausa mínima de un segundo o el mayor `crawl-delay` declarado. El registro de la consulta previa documenta HTTP 404, ausencia del archivo. Esa respuesta no constituye una licencia. No se imputan ingresos ni se recortan extremos en el análisis principal.
-
 ## Métodos por sección
 
 Edad estima la parábola incondicional y la condicional únicamente en horas y vínculo. El pico es el cociente de los coeficientes lineal y cuadrático. Se reportan método delta y bootstrap percentil de 2,000 réplicas según la lógica de `boot(data, statistic, R)` de la clase, implementada en Python. La comparación muestra ambos perfiles sin descomponer su diferencia. Robustez y heterogeneidad presentan la ecuación estimada en cada variante y el estimador dibujado.
@@ -89,17 +87,10 @@ La importancia principal mide aumento del RMSE de validación al permutar cada v
 
 La tabla `auditoria_predictores.csv` revisa todo el conjunto disponible; `columnas_modelos.csv` documenta el diseño de cada candidato; `rmse_especificaciones.csv` aplica la regla de selección a toda la tabla. Las trayectorias se guardan en `seleccion_adelante.csv`, `seleccion_atras.csv` y `seleccion_mixto.csv`.
 
-## Referencias
-
-- [Clase de bootstrap del profesor](https://github.com/ignaciomsarmiento/BDML_2026_20/blob/main/Lecture03/Lecture_03_bootstrap.ipynb).
-- [Repositorio del curso](https://github.com/ignaciomsarmiento/BDML_2026_20) y secciones complementarias de FWL, validación y ridge.
-- [Prevención de fuga de información, scikit-learn](https://scikit-learn.org/1.7/common_pitfalls.html).
-
 ## Integrantes
 
-1. __________________________________
-2. __________________________________
-3. __________________________________
-4. __________________________________
+1. Jhon Sebastián Vela Salcedo.
+2. Ethan Arturo Ramos Benitez.
+3. Harold Santiago Aguilera Mulfo.
+4. Cesar Augusto Vallejo Quiroga.
 
-El historial debe reflejar contribuciones reales. El enunciado exige cinco contribuciones sustanciales por integrante incorporadas a main; los espacios de nombres no acreditan esa participación.
