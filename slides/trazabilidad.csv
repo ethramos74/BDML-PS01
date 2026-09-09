@@ -1,0 +1,35 @@
+pdf,diapositiva,titulo,fuentes,generador,figura
+output/pdf/age_equipo_02.pdf,1,Result Overview,"GEIH 2018, Bogotá. Fuente: edad_pico_intervalos.csv. IC percentil, 2,000 réplicas.",src/entregables.py,
+output/pdf/age_equipo_02.pdf,2,Una muestra transversal de ocupados adultos,Fuente: datos/limpios/geih2018_muestra.csv. Se muestran todas las edades observadas.,src/entregables.py,slides/figuras/edad_distribucion.png
+output/pdf/age_equipo_02.pdf,3,Capital humano y forma del perfil,"Fuente: enunciado, sección 4. Mincer (1974), marco de capital humano.",src/entregables.py,
+output/pdf/age_equipo_02.pdf,4,Regresiones e incertidumbre del pico,"Fuente: tablas de coeficientes y edad_pico_intervalos.csv. EE HC1 entre paréntesis; coeficiente de Edad² y su EE × 1,000.",src/entregables.py,
+output/pdf/age_equipo_02.pdf,5,La edad capta una fracción pequeña de la dispersión,Fuente: perfiles_predichos.csv y muestra común. Bandas puntuales 95% HC1.,src/entregables.py,slides/figuras/edad_perfil_inc.png
+output/pdf/age_equipo_02.pdf,6,El control de horas y vínculo desplaza el perfil,Fuente: perfiles_predichos.csv. Ambos perfiles usan la misma muestra.,src/entregables.py,slides/figuras/edad_perfil_ambos.png
+output/pdf/age_equipo_02.pdf,7,La diferencia responde a horas y composición del empleo,Fuente: descomposicion_perfiles.csv. Identidad exacta de proyecciones lineales.,src/entregables.py,slides/figuras/edad_composicion.png
+output/pdf/age_equipo_02.pdf,8,La inferencia del vértice es estable dentro de la cuadrática,Fuente: intervalos_pico_incondicional.csv. Todos los intervalos tienen nivel 95%.,src/entregables.py,slides/figuras/edad_intervalos.png
+output/pdf/age_equipo_02.pdf,9,"Ponderación, extremos y resultado por hora",Fuente: robustez_heterogeneidad.csv. Las variantes por hora cambian el resultado estudiado.,src/entregables.py,slides/figuras/edad_robustez.png
+output/pdf/age_equipo_02.pdf,10,Alcance económico y utilidad tributaria,Fuente: resultados de la sección 1 y documentación GEIH.,src/entregables.py,
+output/pdf/age_equipo_02.pdf,11,Anexo · Sensibilidad a dependencia dentro del hogar,Fuente: sensibilidad_hogares.csv. CR1 agrupada por directorio y secuencia del hogar.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,1,Result Overview,Fuente: escalera_controles_fwl.csv. Brechas porcentuales entre medias geométricas.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,2,Las horas motivan una comparación condicional,Fuente: muestra común de la sección 2. Horas usuales del principal más efectivas del segundo empleo.,src/entregables.py,slides/figuras/brecha_horas.png
+output/pdf/gap_equipo_02.pdf,3,Cada control define qué trabajadores comparamos,Fuente: especificaciones de la sección 2. S5 es una brecha aditiva constante.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,4,"Brechas, errores estándar y ajuste en muestra",Fuente: escalera_controles_fwl.csv. Analítico homoscedástico con rango efectivo; HC1 robusto.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,5,FWL recupera el coeficiente de la regresión completa,Fuente: brecha_genero.py y verificación numérica en el cuaderno.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,6,La brecha depende del conjunto de controles,Fuente: escalera_controles_fwl.csv. IC 95% transformados desde la escala logarítmica.,src/entregables.py,slides/figuras/brecha_escalera.png
+output/pdf/gap_equipo_02.pdf,7,Los perfiles por sexo requieren interacciones con edad,Fuente: perfiles_por_sexo.csv y picos_por_sexo.csv. S5 extendida con Female × edad y Female × edad².,src/entregables.py,slides/figuras/brecha_perfiles.png
+output/pdf/gap_equipo_02.pdf,8,La brecha condicional varía a lo largo de la edad,Fuente: perfiles_por_sexo.csv. Banda puntual 95% delta HC1.,src/entregables.py,slides/figuras/brecha_por_edad.png
+output/pdf/gap_equipo_02.pdf,9,Qué permite concluir la evidencia,Fuente: resultados de la sección 2.,src/entregables.py,
+output/pdf/gap_equipo_02.pdf,10,Anexo · Picos y precisión por sexo,"Fuente: picos_por_sexo.csv. Bootstrap pareado de 1,000 réplicas.",src/entregables.py,
+output/pdf/pred_equipo_02.pdf,1,Result Overview,"Fuente: rmse_especificaciones.csv y resumen.json. MCO, ridge, elastic net, boosting y promedio jackknife.",src/entregables.py,
+output/pdf/pred_equipo_02.pdf,2,Una evaluación fuera de muestra con orden temporal,Fuente: muestra común y metadatos de los bloques del sitio del curso.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,3,Modelos de referencia de las secciones 1 y 2,Fuente: rmse_especificaciones.csv. Todos los coeficientes se reestiman en entrenamiento.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,4,Flexibilidad dentro de modelos lineales,Fuente: rmse_especificaciones.csv. Selección por el mínimo de toda la tabla.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,5,"Regularización, árboles y promedio de modelos",Fuente: rmse_especificaciones.csv. Diez especificaciones adicionales en total.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,6,"Flexibilidad, contracción y error predictivo",Fuente: rmse_especificaciones.csv. Un LOO indeterminado se deja sin punto en la gráfica.,src/entregables.py,slides/figuras/pred_comparacion.png
+output/pdf/pred_equipo_02.pdf,7,LOOCV y validación estiman riesgos diferentes,Fuente: loocv_vs_validacion.csv. RMSE agregado sobre todas las predicciones externas.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,8,Importancia por permutación conjunta,Fuente: importancia_variables.csv. Aumento de RMSE en validación; 30 permutaciones por grupo.,src/entregables.py,slides/figuras/pred_importancia.png
+output/pdf/pred_equipo_02.pdf,9,Las predicciones dependen de las horas de forma no lineal,Fuente: dependencia_horas.csv y ale_horas.csv. Perfil promedio de validación.,src/entregables.py,punto3_prediccion_ingreso/salidas/figuras/fig03_dependencia_horas.png
+output/pdf/pred_equipo_02.pdf,10,La precisión cambia según el vínculo laboral,Fuente: rmse_por_grupo_validacion.csv. Tamaños de grupo indicados junto a cada barra.,src/entregables.py,punto3_prediccion_ingreso/salidas/figuras/fig04_error_por_empleo.png
+output/pdf/pred_equipo_02.pdf,11,Un residuo grande requiere corroboración externa,Fuente: diagnósticos de validación y límites de medición GEIH.,src/entregables.py,
+output/pdf/pred_equipo_02.pdf,12,Anexo · Intervalos con calibración separada,Fuente: intervalos_conformales_cobertura.csv. Modelo auxiliar M9 y 25% de entrenamiento para calibrar.,src/entregables.py,punto3_prediccion_ingreso/salidas/figuras/fig05_cobertura_conformal.png
+output/pdf/pred_equipo_02.pdf,13,Anexo · Incertidumbre en la comparación,"Fuente: rmse_especificaciones.csv. Bootstrap pareado de 2,000 réplicas de validación.",src/entregables.py,
