@@ -129,10 +129,10 @@ def subgrupos(m):
     guardar(fig,SAL/'figuras/fig05_subgrupos');return t
 
 def diagnostico(m,fits):
-    nota_poblacion(m,'Diagnostico de leverage e influencia sobre S5')
+    nota_poblacion(m,'Diagnóstico de leverage e influencia sobre S5')
     f,r,W,noms,bs=fits['S5'];diag=diagnostico_influencia(f)
-    solo_leverage=int((diag.leverage_alto&~diag.outlier).sum());solo_outlier=int((diag.outlier&~diag.leverage_alto).sum());ambas=int(diag.influyente.sum())
-    resumen=tabla(pd.DataFrame([dict(condicion='Leverage alto, no outlier',n=solo_leverage),dict(condicion='Outlier, leverage no alto',n=solo_outlier),dict(condicion='Ambas (influyente)',n=ambas)]),SAL/'diagnostico_resumen',decimales=0)
+    solo_leverage=int((diag.leverage_alto&~diag.atipico).sum());solo_atipico=int((diag.atipico&~diag.leverage_alto).sum());ambas=int(diag.influyente.sum())
+    resumen=tabla(pd.DataFrame([dict(condicion='Leverage alto, no atípica',n=solo_leverage),dict(condicion='Atípica, leverage no alto',n=solo_atipico),dict(condicion='Ambas (influyente)',n=ambas)]),SAL/'diagnostico_resumen',decimales=0)
     flag=diag.influyente.to_numpy()
     r_excl=fwl(m.log_y[~flag],m.female[~flag],W[~flag],m.fex_c[~flag])
     sensibilidad=tabla(pd.DataFrame([dict(muestra='Completa (S5)',n=len(m),beta_Female=r['b'],brecha_porcentual=100*np.expm1(r['b'])),dict(muestra='Sin influyentes (S5)',n=int((~flag).sum()),beta_Female=r_excl['b'],brecha_porcentual=100*np.expm1(r_excl['b']))]),SAL/'diagnostico_sensibilidad')
@@ -143,7 +143,7 @@ def diagnostico(m,fits):
     ax.axhline(3,color='black',ls='--',lw=.8);ax.axhline(-3,color='black',ls='--',lw=.8);ax.axvline(3*diag.leverage.mean(),color='black',ls='--',lw=.8)
     ax.set(title='Leverage y residuo estudentizado externo, S5',xlabel='Leverage $h_{ii}$',ylabel='Residuo estudentizado externo');ax.legend(fontsize=9)
     nota_poblacion(m,fig=fig);guardar(fig,SAL/'figuras/fig06_diagnostico')
-    display(Markdown(f'''De {len(diag):,} observaciones en S5, {solo_leverage} tienen leverage alto sin ser outliers, {solo_outlier} son outliers sin leverage alto, y {ambas} cumplen ambas condiciones a la vez.
+    display(Markdown(f'''De {len(diag):,} observaciones en S5, {solo_leverage} tienen leverage alto sin ser atípicas, {solo_atipico} son atípicas sin leverage alto, y {ambas} cumplen ambas condiciones a la vez.
 
 Excluir las {ambas} observaciones influyentes mueve el coeficiente Female de {r["b"]:.4f} a {r_excl["b"]:.4f} (brecha de {100*np.expm1(r["b"]):.2f}% a {100*np.expm1(r_excl["b"]):.2f}%).'''))
     return resumen,sensibilidad,perfil

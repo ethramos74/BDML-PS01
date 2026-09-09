@@ -146,19 +146,15 @@ def picos_de_betas(betas, nombres):
 
 
 # ----------------------------------------------------------------------------
-# Diagnostico de leverage e influencia (complementaria C2)
+# Leverage e influencia
 # ----------------------------------------------------------------------------
 def diagnostico_influencia(f, corte_leverage=3.0, corte_residuo=3.0):
-    """Leverage y residuo estudentizado externamente sobre el espacio ponderado de f.
-    Sigue la complementaria C2: leverage alto y outlier son condiciones separadas;
-    influyente es cumplir ambas a la vez, no una sola regla.
-    Devuelve un DataFrame con una fila por observacion de f."""
+    """Leverage y residuo estudentizado externamente sobre el diseño ponderado de f.
+    Leverage alto y atipicidad son condiciones separadas; influyente es cumplir ambas.
+    La varianza del residuo excluye la propia observación para no enmascararla."""
     h, ew, n, k = f["h"], f["resid_w"], f["n"], f["k"]
-    s2 = f["sigma2"]
-    s2_i = ((n - k) * s2 - ew ** 2 / (1 - h)) / (n - k - 1)
+    s2_i = ((n - k) * f["sigma2"] - ew ** 2 / (1 - h)) / (n - k - 1)
     t = ew / np.sqrt(np.maximum(s2_i, 1e-12) * (1 - h))
-    leverage_alto = h > corte_leverage * h.mean()
-    outlier = np.abs(t) > corte_residuo
-    return pd.DataFrame({"leverage": h, "residuo_estudentizado": t,
-                         "leverage_alto": leverage_alto, "outlier": outlier,
-                         "influyente": leverage_alto & outlier})
+    alto = h > corte_leverage * h.mean(); atipico = np.abs(t) > corte_residuo
+    return pd.DataFrame({"leverage": h, "residuo_estudentizado": t, "leverage_alto": alto,
+                         "atipico": atipico, "influyente": alto & atipico})

@@ -10032,7 +10032,7 @@ En S0, $Z_s$ está vacío; en S5 contiene los controles preferidos. El gráfico 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="7.-Diagn%C3%B3stico-de-leverage-e-influencia">7. Diagnóstico de leverage e influencia<a class="anchor-link" href="#7.-Diagn%C3%B3stico-de-leverage-e-influencia">¶</a></h2><p>El coeficiente de S5 resume 14.763 observaciones, y conviene saber si alguna pesa de manera desproporcionada en ese resumen. Siguiendo la complementaria C2, leverage y atipicidad son dos nociones distintas. El leverage $h_{ii}$ es el elemento diagonal de la matriz sombrero del diseño ponderado y mide cuán lejos está $x_i$ del centro de la nube de regresores; no depende de $y_i$. La atipicidad se mide sobre el residuo estudentizado externamente,
+<h2 id="7.-Diagn%C3%B3stico-de-leverage-e-influencia">7. Diagnóstico de leverage e influencia<a class="anchor-link" href="#7.-Diagn%C3%B3stico-de-leverage-e-influencia">¶</a></h2><p>El coeficiente de S5 resume 14,763 observaciones, y conviene saber si alguna pesa de manera desproporcionada en ese resumen. Siguiendo la complementaria C2, leverage y atipicidad son dos nociones distintas. El leverage $h_{ii}$ es el elemento diagonal de la matriz sombrero del diseño ponderado y mide cuán lejos está $x_i$ del centro de la nube de regresores; no depende de $y_i$. La atipicidad se mide sobre el residuo estudentizado externamente,
 $$t_i=\frac{\hat u_i}{\hat\sigma_{(i)}\sqrt{1-h_{ii}}},\qquad \hat\sigma^2_{(i)}=\frac{(n-k)\hat\sigma^2-\hat u_i^2/(1-h_{ii})}{n-k-1},$$
 donde $\hat\sigma^2_{(i)}$ excluye a la propia observación $i$, de modo que un dato muy atípico no infla el denominador que debería delatarlo.</p>
 <p>Se marca leverage alto si $h_{ii}&gt;3\bar h$ y atípica si $|t_i|&gt;3$. Una observación es influyente solo si cumple ambas condiciones a la vez: estar lejos en los regresores sin sorprender en el resultado no mueve la recta, y sorprender en el resultado desde el centro de la nube tampoco. El ejercicio es descriptivo. Ninguna observación se elimina de la especificación reportada: el interés es acotar cuánto podría moverse la brecha, no depurar la muestra.</p>
@@ -10060,7 +10060,7 @@ donde $\hat\sigma^2_{(i)}$ excluye a la propia observación $i$, de modo que un 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown" tabindex="0">
-<p>Diagnostico de leverage e influencia sobre S5: 14,763 registros; aproximadamente 3,686,406 personas representadas por fex_c. IC del total: no disponible con el diseño suministrado.</p>
+<p>Diagnóstico de leverage e influencia sobre S5: 14,763 registros; aproximadamente 3,686,406 personas representadas por fex_c. IC del total: no disponible con el diseño suministrado.</p>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -10075,11 +10075,11 @@ donde $\hat\sigma^2_{(i)}$ excluye a la propia observación $i$, de modo que un 
 </thead>
 <tbody>
 <tr>
-<td>Leverage alto, no outlier</td>
+<td>Leverage alto, no atípica</td>
 <td>270</td>
 </tr>
 <tr>
-<td>Outlier, leverage no alto</td>
+<td>Atípica, leverage no alto</td>
 <td>212</td>
 </tr>
 <tr>
@@ -10205,7 +10205,7 @@ donde $\hat\sigma^2_{(i)}$ excluye a la propia observación $i$, de modo que un 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output" data-mime-type="text/markdown" tabindex="0">
-<p>De 14,763 observaciones en S5, 270 tienen leverage alto sin ser outliers, 212 son outliers sin leverage alto, y 10 cumplen ambas condiciones a la vez.</p>
+<p>De 14,763 observaciones en S5, 270 tienen leverage alto sin ser atípicas, 212 son atípicas sin leverage alto, y 10 cumplen ambas condiciones a la vez.</p>
 <p>Excluir las 10 observaciones influyentes mueve el coeficiente Female de -0.1833 a -0.1836 (brecha de -16.75% a -16.77%).</p>
 </div>
 </div>
