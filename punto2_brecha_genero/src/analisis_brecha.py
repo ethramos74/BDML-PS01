@@ -3,7 +3,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from brecha_genero import diseno,mco,fwl,bootstrap_fwl,bootstrap_betas,picos_por_sexo,picos_de_betas
+from IPython.display import display,Markdown
+from brecha_genero import diseno,mco,fwl,bootstrap_fwl,bootstrap_betas,picos_por_sexo,picos_de_betas,diagnostico_influencia
 from src.reportes import tabla,guardar,por_grupo,media_ponderada,alcance,nota_poblacion,cobertura_grupos
 ROOT=Path(__file__).resolve().parents[2];SAL=ROOT/'punto2_brecha_genero/salidas'
 BLUE,RED='#1463AE','#A6405C'
@@ -126,3 +127,23 @@ def subgrupos(m):
         z=t[t.modelo==nombre];ax.errorbar(z.beta,np.arange(len(z))+offset,xerr=1.96*z.EE_HC1,fmt='o',label=nombre,color=color,capsize=3)
     ax.set(yticks=np.arange(len(grupos)),yticklabels=[g[0] for g in grupos],xlabel='Coeficiente Female e IC 95% HC1',title='Brechas dentro de cada subgrupo, ponderadas por fex_c');ax.axvline(0,color='gray',lw=.6);ax.legend();ax.invert_yaxis()
     guardar(fig,SAL/'figuras/fig05_subgrupos');return t
+
+def diagnostico(m,fits):
+    nota_poblacion(m,'Diagnostico de leverage e influencia sobre S5')
+    f,r,W,noms,bs=fits['S5'];diag=diagnostico_influencia(f)
+    solo_leverage=int((diag.leverage_alto&~diag.outlier).sum());solo_outlier=int((diag.outlier&~diag.leverage_alto).sum());ambas=int(diag.influyente.sum())
+    resumen=tabla(pd.DataFrame([dict(condicion='Leverage alto, no outlier',n=solo_leverage),dict(condicion='Outlier, leverage no alto',n=solo_outlier),dict(condicion='Ambas (influyente)',n=ambas)]),SAL/'diagnostico_resumen',decimales=0)
+    flag=diag.influyente.to_numpy()
+    r_excl=fwl(m.log_y[~flag],m.female[~flag],W[~flag],m.fex_c[~flag])
+    sensibilidad=tabla(pd.DataFrame([dict(muestra='Completa (S5)',n=len(m),beta_Female=r['b'],brecha_porcentual=100*np.expm1(r['b'])),dict(muestra='Sin influyentes (S5)',n=int((~flag).sum()),beta_Female=r_excl['b'],brecha_porcentual=100*np.expm1(r_excl['b']))]),SAL/'diagnostico_sensibilidad')
+    perfil=tabla(m.loc[flag,['age','female','terciaria']].assign(ingreso_mensual=np.exp(m.loc[flag,'log_y'])).reset_index(drop=True),SAL/'diagnostico_perfil_influyentes',decimales=0) if ambas else pd.DataFrame()
+    fig,ax=plt.subplots(figsize=(7,5.5),layout='constrained')
+    ax.scatter(diag.leverage,diag.residuo_estudentizado,s=10,alpha=.3,color=BLUE,label=f'No influyentes (n={len(diag)-ambas})')
+    if ambas:ax.scatter(diag.leverage[flag],diag.residuo_estudentizado[flag],s=32,color=RED,label=f'Influyentes (n={ambas})')
+    ax.axhline(3,color='black',ls='--',lw=.8);ax.axhline(-3,color='black',ls='--',lw=.8);ax.axvline(3*diag.leverage.mean(),color='black',ls='--',lw=.8)
+    ax.set(title='Leverage y residuo estudentizado externo, S5',xlabel='Leverage $h_{ii}$',ylabel='Residuo estudentizado externo');ax.legend(fontsize=9)
+    nota_poblacion(m,fig=fig);guardar(fig,SAL/'figuras/fig06_diagnostico')
+    display(Markdown(f'''De {len(diag):,} observaciones en S5, {solo_leverage} tienen leverage alto sin ser outliers, {solo_outlier} son outliers sin leverage alto, y {ambas} cumplen ambas condiciones a la vez.
+
+Excluir las {ambas} observaciones influyentes mueve el coeficiente Female de {r["b"]:.4f} a {r_excl["b"]:.4f} (brecha de {100*np.expm1(r["b"]):.2f}% a {100*np.expm1(r_excl["b"]):.2f}%).'''))
+    return resumen,sensibilidad,perfil
