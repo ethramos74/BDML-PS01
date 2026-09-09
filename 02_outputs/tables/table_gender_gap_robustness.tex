@@ -1,0 +1,29 @@
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Wed, Sep 09, 2026 - 13:07:25
+\begin{table}[!htbp] \centering 
+  \caption{Sensitivity of the Gender Gap to Influential Observations} 
+  \label{tab:gender_gap_robustness} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Log Monthly Labor Income} \\ 
+ & Full sample & Excl. influential & Excl. Cook \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ female & $-$0.222$^{***}$ & $-$0.221$^{***}$ & $-$0.181$^{***}$ \\ 
+  & (0.012) & (0.012) & (0.010) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Dropped observations & -- & 6 & 836 \\ 
+Exclusion rule & -- & High leverage and $|t| > 3$ & Cook's D $>$ 4/n \\ 
+Observations & 14,764 & 14,758 & 13,928 \\ 
+R$^{2}$ & 0.342 & 0.344 & 0.379 \\ 
+Adjusted R$^{2}$ & 0.342 & 0.344 & 0.378 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{All columns estimate the preferred specification (M3). HC1 robust SEs in parentheses. Columns (2) and (3) are sensitivity checks, not the reported specification.} \\ 
+\end{tabular} 
+\end{table} 
