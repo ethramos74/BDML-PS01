@@ -23,3 +23,6 @@ ehthumbs_vista.db
 .vscode/
 .idea/
 *.swp
+
+# Notas de trabajo privadas (nunca al repo)
+ESTADOPIVADO.md
