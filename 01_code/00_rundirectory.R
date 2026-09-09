@@ -1,32 +1,44 @@
-##########################################################
-# Master script
+# ==============================================================================
+# Archivo:   01_code/00_rundirectory.R
+# Proposito: Script maestro. Reproduce de principio a fin los resultados del
+#            repositorio a partir de los datos crudos.
 #
-# Corre este archivo para reproducir todos los resultados
-# del repositorio:
+# Uso:       Desde una sesion de R en la raiz del proyecto,
+#              source("01_code/00_rundirectory.R")
 #
-#   source("01_code/00_rundirectory.R")
+# Cadena de dependencias:
+#   01_scraping.R -> 02_outputs/data_geih_consolidada.rds
+#   02_cleaning.R -> 02_outputs/data_geih_cleaned.rds
+#   03 / 04 / 04b / 05 -> 02_outputs/tables y 02_outputs/figures
 #
-# Este script solo llama a otros scripts. La lógica vive
-# en cada uno de ellos.
-#
-# Las llamadas están comentadas hasta que el script
-# correspondiente exista. Al terminar un script, se
-# descomenta su línea acá.
-##########################################################
+# Las tres secciones parten de la MISMA base limpia, de modo que los
+# resultados sean comparables entre secciones.
+# ==============================================================================
 
-# Paso 1: descargar los 10 chunks de la GEIH
-# TODO: hay dos scripts, falta decidir con el equipo cuál se queda
-# source("01_code/01_data_scraper.R")
-# source("01_code/01_scraping.R")
+rm(list = ls()); cat("\014"); gc()
 
-# Paso 2: filtros muestrales y limpieza -> base única de análisis
-source("01_code/02_cleaning.R")
+if (!require(pacman)) install.packages("pacman")
+pacman::p_load(here)   # Rutas relativas a la raiz del repositorio
 
-# Paso 3: Sección 1 - perfil edad-ingreso
-# source("01_code/03_estimate_age_income_profile.R")
+message("Raiz del proyecto: ", here())
 
-# Paso 4: Sección 2 - brecha de ingreso por género
-source("01_code/04_gender_gap.R")
+# 1. Descarga y consolidacion de los 10 chunks de la GEIH 2018.
+#    El script se omite solo si la base consolidada ya existe localmente.
+source(here("01_code", "01_scraping.R"))
 
-# Paso 5: Sección 3 - desempeño predictivo fuera de muestra
-# source("01_code/05_evaluate_prediction_models.R")
+# 2. Filtros muestrales y construccion de variables.
+source(here("01_code", "02_cleaning.R"))
+
+# 3. Seccion 1: perfil edad-ingreso.
+# source(here("01_code", "03_estimate_age_income_profile.R"))
+
+# 4. Seccion 2: brecha de ingreso por genero.
+source(here("01_code", "04_gender_gap.R"))
+
+# 4b. Seccion 2: diagnostico de regresion y analisis de sensibilidad.
+source(here("01_code", "04b_diagnostics_gender_gap.R"))
+
+# 5. Seccion 3: desempeno predictivo fuera de muestra.
+# source(here("01_code", "05_evaluate_prediction_models.R"))
+
+message("Listo. Revisar 02_outputs/tables y 02_outputs/figures.")
