@@ -1,8 +1,0 @@
-* text=auto eol=lf
-*.csv -text
-*.pdf binary
-*.png binary
-*.pptx binary
-*.svg linguist-generated=true
-*.html linguist-generated=true
-*.ipynb linguist-generated=true
